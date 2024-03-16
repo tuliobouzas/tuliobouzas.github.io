@@ -30,26 +30,37 @@
     </div>
 
     <!-- Contents -->
-    <div class="main">
+        <div class="main">
+            
+            <!-- My picture -->
+            <img class="profile" src="profile.jpg" alt="Profile Picture">
         
-        <!-- My picture -->
-        <img class="profile" src="profile.jpg" alt="Profile Picture">
-    
-        <!-- Text -->
-        <div class="info"> <p>My name is Túlio César Bouzas Correa, and I am pursuing my PhD in Economics at Tilburg University. My academic endeavors are broadly focused macro, monetary economics and development. I have a particular interest in exploring the micro-foundations of money within heterogeneous agents models, alongside its relationship with financial development.  My supervisors are <a href="https://sites.google.com/site/burakruras/home?authuser=0">Dr. Burak Uras</a> and 
-            <a href="https://sites.google.com/site/hasvanvlokhoven/" >Dr. Has van Vlokhoven</a>. </p>
-            
-            <br /><br />
-            
-            <p> <span style="font-size: 25px;">Contact info:</span> <br />  <a href="mailto:t.bouzas@tilburguniversity.edu">T.bouzas@tilburguniversity.edu </a> </p>
-                        <p> <span style="font-size: 25px;">Curriculum Vitae:</span> <br /> <a href="cv.pdf">Download</a> </p>
-                        <p> <span style="font-size: 25px;">Office:</span> <br /> K342, Warandelaan 2, 5037 AB Tilburg, NL </p></div>
-        <div class="info">
-            <zero-md src="/pages/home.md"></zero-md>
+            <!-- Text -->
+            <div class="info_home">
+                <zero-md src="/pages/home.md"></zero-md>
+            </div>
         </div>
-    </div>
-    <div class="footer"> </div>
+    
+    <!-- Footer-->
+    <footer class="footer"> 
+        <script>
+        fetch('/style/navbar.html')
+            .then(response => response.text())
+            .then(text => document.getElementById('navbar-placeholder').innerHTML = text);
+        </script> 
+    </footer>
+
 </body>
 </html>
 
 
+
+<!--<div class="info"> <p>My name is Túlio César Bouzas Correa, and I am pursuing my PhD in Economics at Tilburg University. My academic endeavors are broadly focused macro, monetary economics and development. I have a particular interest in exploring the micro-foundations of money within heterogeneous agents models, alongside its relationship with financial development.  My supervisors are <a href="https://sites.google.com/site/burakruras/home?authuser=0">Dr. Burak Uras</a> and 
+    <a href="https://sites.google.com/site/hasvanvlokhoven/" >Dr. Has van Vlokhoven</a>. </p>
+    
+    <br />
+    
+    <p> <span style="font-size: 25px;">Contact info:</span> <br />  <a href="mailto:t.bouzas@tilburguniversity.edu">T.bouzas@tilburguniversity.edu </a> </p>
+                <p> <span style="font-size: 25px;">Curriculum Vitae:</span> <br /> <a href="cv.pdf">Download</a> </p>
+                <p> <span style="font-size: 25px;">Office:</span> <br /> K342, Warandelaan 2, 5037 AB Tilburg, NL </p>
+            </div> -->
