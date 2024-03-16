@@ -3,11 +3,12 @@
 :root {
     --primary-text-color: #fa0404;
     --body-font: 'Georgia', serif;
+    --body-font-size: 16;
     --title-font: Georgia;
     --body-color: #313131;
     --link-color: rgb(68, 125, 190); 
     --theme-color: rgb(155, 184, 175);
-} /* rgba(46, 94, 79, 0.5);
+}
 
 /* Whole document */
 body { letter-spacing: 0.5px; margin: 0; padding: 0; background: rgba(239,234,222,0.2); }
@@ -52,7 +53,7 @@ body { letter-spacing: 0.5px; margin: 0; padding: 0; background: rgba(239,234,22
             margin: auto}                                                         /* size        */
 
     /* textual block */
-    .info { font-size: 20px;                                                     /* font        */
+    .info { font-size: var(--body-font);                                         /* font        */
             margin-top: 10px; text-align: justify; width: 100%; }                /* location    */
 
     /* home - picture */
@@ -61,7 +62,7 @@ body { letter-spacing: 0.5px; margin: 0; padding: 0; background: rgba(239,234,22
                max-width: 500px; height: auto; }                                 /* size        */
 
     /* home - textual block */
-    .info-home { font-size: 20px;                                                /* font        */
+    .info-home { font-size: var(--body-font-size);                               /* font        */
                  margin-top: 10px; margin-left: auto; float: left;
                  text-align: justify; flex: 1;                                   /* location    */
                  min-width: 30%; max-width: 500px }                              /* size        */
@@ -88,7 +89,13 @@ a { color: var(--link-color); text-decoration: underline }
     
     .header {flex: 1 auto;}
 
-    .site { font-size: 18px; padding: 10px; padding-left: 10px; }
+    .site{ font-size: var(--body-font-size); padding: 12px; padding-left: 12px; }
+
+    .navbar-link { font-size: var(--body-font-size); }
+
+    .title {font-size: 60px; }
+
+    .subtitle {font-size: 22px; }
 
     .main{ width: 70%; flex-direction: column; min-height: 120vh; }
 
