@@ -8,6 +8,7 @@
     --body-color: #313131;
     --link-color: rgb(68, 125, 190); 
     --theme-color: rgb(155, 184, 175);
+    --title-bar: 500px;
 }
 
 /* Whole document */
@@ -97,12 +98,16 @@ a { color: var(--link-color); text-decoration: underline }
 
     .subtitle {font-size: 22px; }
 
-    .main{ width: 70%; flex-direction: column; min-height: 120vh; }
+    .main{ width: 70%; flex-direction: column; min-height: 140vh; }
 
     .profile,
     .info-home { 
       flex-basis: 100%; 
       max-width: 100%; }
+
+    :root {
+        --title-bar: 350px;
+    }
   }
 
   /* Tablet screens */
@@ -121,7 +126,7 @@ a { color: var(--link-color); text-decoration: underline }
 /* Bigger screens */
 @media (min-width: 1601px) {
     
-    .main{ max-width: 70%; ; min-height: 60vh; }
+    .main{ max-width: 70%; ; min-height: 80vh; }
     
     .profile { flex-basis: 50%; 
                max-width: 40%;
