@@ -65,8 +65,7 @@ a { color: #000; text-decoration: underline }
     .profile,
     .info_home { 
       flex-basis: 100%; 
-      max-width: 100%; 
-    }
+      max-width: 100%; }
   }
 
   /* Tablet screens */
@@ -75,12 +74,11 @@ a { color: #000; text-decoration: underline }
     .main { max-width: 80%; ; min-height: 60vh; }
 
     .profile { flex-basis: 50%; 
-               max-width: 40%;}
+               max-width: 40%;
+               max-height: 40%; }
     
     .info_home { flex-basis: 50%; 
-                 max-width: 40%;
-      
-    }
+                 max-width: 40%; }
 }
 
 /* Bigger screens */
@@ -89,10 +87,9 @@ a { color: #000; text-decoration: underline }
     .main{ max-width: 70%; ; min-height: 60vh; }
     
     .profile { flex-basis: 50%; 
-               max-width: 40%;}
+               max-width: 40%;
+               max-height: 40%; }
     
     .info_home { flex-basis: 50%; 
-                 max-width: 40%;
-      
-    }
+                 max-width: 40%; }
 }

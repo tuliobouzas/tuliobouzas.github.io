@@ -30,24 +30,20 @@
     </div>
 
     <!-- Contents -->
-        <div class="main">
+    <div class="main">
             
-            <!-- My picture -->
-            <img class="profile" src="profile.jpg" alt="Profile Picture">
+        <!-- My picture -->
+        <img class="profile" src="profile.jpg" alt="Profile Picture">
         
-            <!-- Text -->
-            <div class="info_home">
-                <zero-md src="/pages/home.md"></zero-md>
-            </div>
+        <!-- Text -->
+        <div class="info_home">
+            <zero-md src="/pages/home.md"></zero-md>
         </div>
+    </div>
     
     <!-- Footer-->
-    <footer class="footer"> 
-        <script>
-        fetch('/style/navbar.html')
-            .then(response => response.text())
-            .then(text => document.getElementById('navbar-placeholder').innerHTML = text);
-        </script> 
+    <footer class="footer" >
+        <include src="style/footer.html"></include>
     </footer>
 
 </body>

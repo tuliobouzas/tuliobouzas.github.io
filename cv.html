@@ -28,18 +28,17 @@
         </div>
     
         <!-- Contents -->
-        </div>
-        <div class="doc">
-            <object data="cv.pdf" height="1500px" width="100%"></object>
+        <div class="main">
+            <div class="doc">
+                <object data="cv.pdf" height="1500px" width="100%"></object>
+            </div>
         </div>
         
         <!-- Footer-->
         <footer class="footer"> 
-            <script>
-            fetch('/style/navbar.html')
-                .then(response => response.text())
-                .then(text => document.getElementById('navbar-placeholder').innerHTML = text);
-            </script> 
+            <footer class="footer" > 
+                <include src="style/footer.html"></include>
+            </footer>
         </footer>
     
     </body>
