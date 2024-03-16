@@ -21,12 +21,14 @@
 
     <!-- Heading: Navigation bar, cover and title -->
     <div class="header">
+        <div class="site">Túlio Bouzas' Webpage</div>
         <div id="navbar-placeholder">
-        <script>
-        fetch('/style/navbar.html')
-            .then(response => response.text())
-            .then(text => document.getElementById('navbar-placeholder').innerHTML = text);
-        </script>
+            <div class="navbar">
+                <a href="index.html" class="navbar-link navbar-active">Home</a>
+                <a href="cv.html" class="navbar-link">CV</a>
+                <a href="research.html" class="navbar-link">Research</a>
+                <a href="teaching.html" class="navbar-link">Teaching</a>
+            </div>
         </div>
         <div class="title">Túlio Bouzas</div>
         <hr text-align="center" class="solid" width="500px">

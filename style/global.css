@@ -3,6 +3,7 @@
 :root {
     --primary-text-color: #fa0404;
     --body-font: 'Georgia', serif;
+    --title-font: Georgia;
     --body-color: #313131;
     --link-color: rgb(68, 125, 190); 
     --theme-color: rgb(155, 184, 175);
@@ -13,65 +14,64 @@ body { letter-spacing: 0.5px; margin: 0; padding: 0; background: rgba(239,234,22
     
     /* cover */
     .header { background: url('background.png') no-repeat center center; 
-              height: 350px; width: 100%; }                               /* size        */
+              height: 350px; width: 100%; }                                       /* size        */
               
+    /* site name */
+    .site { font-style: var(--title-font); color: rgba(239,234,222,1);          /* text        */
+            font-size: 28px;
+            position: absolute; padding: 4px; padding-left: 12px; }
+    
     /* navigation bar */
-    .navbar { padding: 10px; text-align: right;                           /* text        */
-              background: rgba(0,0,0,0.65); }                            /* background  */
+    .navbar { padding: 10px; text-align: right;                                   /* text        */
+              background: rgba(0,0,0,0.65); }                                   /* background  */
 
     /* links of the navbar */
-    /*.navbar a { padding: 10px; text-decoration: none; font-weight: bold;  /* text        */
-    /*            color: rgba(239,234,222,1); } */
-    .navbar-link {
-        text-decoration: none;
-        color: rgba(239,234,222,1);
-        padding: 4px; }
-
+    .navbar-link { text-decoration: none; color: rgba(239,234,222,1);           /* text        */
+                   padding: 4px; }                                                /* location    */
 
     /* indicator of current section */
-    .navbar-active {
-        border-bottom: 7px solid var(--theme-color); }
+    .navbar-active { border-bottom: 7px solid var(--theme-color); }
 
     /* sub-bar */
     .line {background: var(--theme-color);                           
             height: 10px ; width: 100%; }   
 
     /* title of the page */
-    .title { font-size: 80px; color: #000; font-family: Georgia;        /* font        */
-             margin-top: 70px; text-align: center; }                      /* location    */
+    .title { font-size: 80px; color: #000; font-family: var(--title-font);      /* font        */
+             margin-top: 70px; text-align: center; }                              /* location    */
     
     /* subtitle of the page */
-    .subtitle { font-size: 32px; color: #000; font-family: Georgia;     /* font        */
-        margin-top: 10px; text-align: center; }                           /* location    */
+    .subtitle { font-size: 32px; color: #000; font-family: var(--title-font);   /* font        */
+        margin-top: 10px; text-align: center; }                                   /* location    */
 
     /* main block */
-    .main { padding-top: 40px;                                            /* location    */
+    .main { padding-top: 40px;                                                    /* location    */
             box-sizing: border-box; flex-wrap: wrap; flex-grow: 1;
             margin: auto; margin-right: auto; 
-            margin: auto}                                                 /* size        */
+            margin: auto}                                                         /* size        */
 
     /* textual block */
-    .info { font-size: 20px;                                              /* font        */
-            margin-top: 10px; text-align: justify; width: 100%; }         /* location    */
+    .info { font-size: 20px;                                                     /* font        */
+            margin-top: 10px; text-align: justify; width: 100%; }                /* location    */
 
     /* home - picture */
-    .profile { float: left; margin-right: 100px; margin-top: 10px;        /* location    */
+    .profile { float: left; margin-right: 100px; margin-top: 10px;               /* location    */
                margin-bottom: 40px; margin-right: 40px; flex: 0 0 auto;  
-               max-width: 500px; height: auto; }                          /* size        */
+               max-width: 500px; height: auto; }                                 /* size        */
 
     /* home - textual block */
-    .info-home { font-size: 20px;                                         /* font        */
+    .info-home { font-size: 20px;                                                /* font        */
                  margin-top: 10px; margin-left: auto; float: left;
-                 text-align: justify; flex: 1;                            /* location    */
-                 min-width: 30%; max-width: 500px }                       /* size        */
+                 text-align: justify; flex: 1;                                   /* location    */
+                 min-width: 30%; max-width: 500px }                              /* size        */
 
     /* documents */
     .doc { margin-top: 0px; text-align: justify; }
 
     /* footer */
-    .footer { padding: 50px; margin-top:50px;                            /* location    */      
-              background: var(--theme-color);                            /* background  */
-              height: 50px ; width: 100%; }                              /* size        */
+    .footer { padding: 50px; margin-top:50px;                                   /* location    */      
+              background: var(--theme-color);                                   /* background  */
+              height: 50px ; width: 100%; }                                     /* size        */
 
     /* markdown font */
     .markdown-font {
