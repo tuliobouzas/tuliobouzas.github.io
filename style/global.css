@@ -27,6 +27,7 @@ body { letter-spacing: 0.5px; margin: 0; padding: 0; background: rgba(239,234,22
 
     /* links of the navbar */
     .navbar-link { text-decoration: none; color: rgba(239,234,222,1);           /* text        */
+                   font-size: 18px;
                    padding: 4px; }                                                /* location    */
 
     /* indicator of current section */
@@ -87,7 +88,9 @@ a { color: var(--link-color); text-decoration: underline }
     
     .header {flex: 1 auto;}
 
-    .main{ width: 50%; flex-direction: column; min-height: 100vh; }
+    .site { font-size: 18px; padding: 10px; padding-left: 10px; }
+
+    .main{ width: 70%; flex-direction: column; min-height: 120vh; }
 
     .profile,
     .info-home { 
