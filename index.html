@@ -1,11 +1,15 @@
+<!-- HOME PAGE -->
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Library that allows markdown texts to be edited -->
+<script src="/js/zero-md-config.js" ></script>
 <!-- Library that allows markdown texts to be embedded -->
-<script type="module" src="/lib/zero-md.min.js" font-size></script>
+<script type="module" src="/js/lib/zero-md.min.js"></script>
 <!-- Title of the tab in the browser -->
 <title>Túlio Bouzas' Home</title>
 <!-- My custom theme -->
@@ -29,6 +33,9 @@
         <div class="subtitle">PhD candidate at Tilburg University</div>
     </div>
 
+    <!-- Theme line-->
+    <div class="line"></div>
+
     <!-- Contents -->
     <div class="main">
             
@@ -36,8 +43,8 @@
         <img class="profile" src="profile.jpg" alt="Profile Picture">
         
         <!-- Text -->
-        <div class="info_home">
-            <zero-md src="/pages/home.md"></zero-md>
+        <div class="info-home">
+            <zero-md class="markdown-font" src="/pages/home.md"></zero-md>
         </div>
     </div>
     

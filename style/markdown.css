@@ -1,0 +1,6 @@
+h1 {color: red} 
+details > summary {
+    cursor: pointer;
+    color: blue; /* Example style */
+    text-decoration: underline;
+    list-style:  none; }

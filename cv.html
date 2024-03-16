@@ -1,10 +1,14 @@
+<!-- CV PAGE -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Library that allows markdown texts to be edited -->
+    <script src="/js/zero-md-config.js" ></script>
     <!-- Library that allows markdown texts to be embedded -->
-    <script type="module" src="/lib/zero-md.min.js" font-size></script>
+    <script type="module" src="/js/lib/zero-md.min.js"></script>
     <!-- Title of the tab in the browser -->
     <title>Túlio Bouzas' CV</title>
     <!-- My custom theme -->
@@ -17,15 +21,19 @@
         <!-- Heading: Navigation bar, cover and title -->
         <div class="header">
             <div id="navbar-placeholder">
-            <script>
-            fetch('/style/navbar.html')
-                .then(response => response.text())
-                .then(text => document.getElementById('navbar-placeholder').innerHTML = text);
-            </script>
+                <div class="navbar">
+                    <a href="index.html" class="navbar-link">Home</a>
+                    <a href="cv.html" class="navbar-link navbar-active">CV</a>
+                    <a href="research.html" class="navbar-link">Research</a>
+                    <a href="teaching.html" class="navbar-link">Teaching</a>
+                </div>
             </div>
             <div class="title">Curriculum Vitae</div>
             <hr text-align="center" class="solid" width="600px" >
         </div>
+
+        <!-- Theme line-->
+        <div class="line"></div>
     
         <!-- Contents -->
         <div class="main">
@@ -36,9 +44,7 @@
         
         <!-- Footer-->
         <footer class="footer"> 
-            <footer class="footer" > 
-                <include src="style/footer.html"></include>
-            </footer>
+            <include src="style/footer.html"></include>
         </footer>
     
     </body>
