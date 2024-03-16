@@ -3,7 +3,7 @@
 :root {
     --primary-text-color: #fa0404;
     --body-font: 'Georgia', serif;
-    --body-font-size: 16;
+    --body-font-size: 20px;
     --title-font: Georgia;
     --body-color: #313131;
     --link-color: rgb(68, 125, 190); 
@@ -12,7 +12,9 @@
 }
 
 /* Whole document */
-body { letter-spacing: 0.5px; margin: 0; padding: 0; background: rgba(239,234,222,0.2); }
+body { font-family: var(--body-font); font-size: var(--body-font-size);           /* text        */
+       letter-spacing: 0.5px; margin: 0; padding: 0;                              /* location    */
+       background: rgba(239,234,222,0.2); }                                     /* background  */
     
     /* cover */
     .header { background: url('background.png') no-repeat center center; 
@@ -54,8 +56,7 @@ body { letter-spacing: 0.5px; margin: 0; padding: 0; background: rgba(239,234,22
             margin: auto}                                                         /* size        */
 
     /* textual block */
-    .info { font-size: var(--body-font);                                         /* font        */
-            margin-top: 10px; text-align: justify; width: 100%; }                /* location    */
+    .info { margin-top: 10px; text-align: justify; width: 100%; }                /* location    */
 
     /* home - picture */
     .profile { float: left; margin-right: 100px; margin-top: 10px;               /* location    */
@@ -63,9 +64,8 @@ body { letter-spacing: 0.5px; margin: 0; padding: 0; background: rgba(239,234,22
                max-width: 500px; height: auto; }                                 /* size        */
 
     /* home - textual block */
-    .info-home { font-size: var(--body-font-size);                               /* font        */
-                 margin-top: 10px; margin-left: auto; float: left;
-                 text-align: justify; flex: 1;                                   /* location    */
+    .info-home { margin-top: 10px; margin-left: auto; float: left;               /* location    */
+                 text-align: justify; flex: 1;                     
                  min-width: 30%; max-width: 500px }                              /* size        */
 
     /* documents */
@@ -79,7 +79,8 @@ body { letter-spacing: 0.5px; margin: 0; padding: 0; background: rgba(239,234,22
     /* markdown font */
     .markdown-font {
                 font-family: var(--body-font);
-                color: var(--body-color);
+                color: var(--body-color); 
+                font-size: var(--body-font-size);
               }
 
 /* Links */
@@ -99,14 +100,13 @@ a { color: var(--link-color); text-decoration: underline }
     .subtitle {font-size: 22px; }
 
     .main{ width: 70%; flex-direction: column; min-height: 135vh; }
-
+    
     .profile,
-    .info-home { 
-      flex-basis: 100%; 
-      max-width: 100%; }
+    .info-home { flex-basis: 100%; max-width: 100%;}
 
     :root {
         --title-bar: 350px;
+        --body-font-size: 16px;
     }
   }
 
@@ -115,12 +115,15 @@ a { color: var(--link-color); text-decoration: underline }
     
     .main { max-width: 80%; ; min-height: 60vh; }
 
-    .profile { flex-basis: 50%; 
-               max-width: 40%;
-               max-height: 40%; }
+    .profile { flex-basis: 50%; max-width: 40%; max-height: 40%; }
     
-    .info-home { flex-basis: 50%; 
-                 max-width: 40%; }
+    .info { flex-basis: 50%; max-width: 40%; }
+    
+    .info-home { flex-basis: 50%; max-width: 40%; }
+
+    :root {
+      --body-font-size: 18px;
+  }
 }
 
 /* Bigger screens */

@@ -17,13 +17,14 @@ details > summary {
 <!-- Actual text -->
 
 ## Current teaching assistant, Tilburg University 
+<hr text-align="center" class="solid" width="100%">
 
 - Quantitative Dynamic Macroeconomics [with Konstantin Gantert] (2023 - present), Ba. in Economics
 
 
 </br>
-<hr text-align="center" class="solid" width="100%">
 
 ## Past teaching assistant, Universidade de Brasília
+<hr text-align="center" class="solid" width="100%">
 
 - Topics in Macroeconomics and Macroeconomics 2 [with Marina Delmondes de Carvalho Rossi] (2021), RM Economics
