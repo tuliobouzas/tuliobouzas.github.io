@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Túlio Bouzas - Home</title>
+<link rel="stylesheet" href="/style/scheme.css">
+</head> <!-- 350px;-->
+<body>
+    <div class="header">
+        <div id="navbar-placeholder">
+        <script>
+        fetch('/style/navbar.html')
+            .then(response => response.text())
+            .then(text => document.getElementById('navbar-placeholder').innerHTML = text);
+        </script>
+        </div>
+        <div class="title">Curriculum Vitae</div>
+        <hr text-align="center" class="solid" width="600px" >
+    </div>
+    <div class="doc">
+        <object data="cv.pdf" height="1500px" width="100%"></object>
+    </div>
+</body>
+</html>
