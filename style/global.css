@@ -98,7 +98,7 @@ a { color: var(--link-color); text-decoration: underline }
 
     .subtitle {font-size: 22px; }
 
-    .main{ width: 70%; flex-direction: column; min-height: 140vh; }
+    .main{ width: 70%; flex-direction: column; min-height: 135vh; }
 
     .profile,
     .info-home { 
