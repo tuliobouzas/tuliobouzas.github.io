@@ -76,7 +76,7 @@ body { font-family: var(--body-font); font-size: var(--body-font-size);         
     /* footer */
     .footer { padding-top: 20px; margin-top:50px;                                /* location    */      
               background: var(--theme-color);                                    /* background  */
-              height: 100px ; width: 100%;                                       /* size        */
+              height: 150px ; width: 100%;                                       /* size        */
               color: var(--light-color); font-size: var(--body-font-size); }     /* text        */
 
     /* footer bar */
