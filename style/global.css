@@ -14,9 +14,13 @@
 }
 
 /* Whole document */
+html { height: 100%; }
+
+/* Body of the document */
 body { font-family: var(--body-font); font-size: var(--body-font-size);           /* text        */
        letter-spacing: 0.5px; margin: 0; padding: 0;                              /* location    */
-       background: rgba(239,234,222,0.2); }                                     /* background  */
+       background: rgba(239,234,222,0.2);                                       /* background  */
+       min-height: 100%; display: flex; flex-direction: column; }
     
     /* cover */
     .header { background: url('img/background.png') no-repeat center center; 
@@ -109,7 +113,7 @@ a { color: var(--link-color); text-decoration: underline }
 
     .subtitle {font-size: 22px; }
 
-    .main{ width: 70%; flex-direction: column; min-height: 135vh; }
+    .main{ width: 70%; flex-direction: column; }  /* min-height: 135vh; */
     
     .profile,
     .info-home { flex-basis: 100%; max-width: 100%;}
@@ -127,7 +131,7 @@ a { color: var(--link-color); text-decoration: underline }
   /* Tablet screens */
   @media (min-width: 1301px) and (max-width: 1600px) {
     
-    .main { max-width: 80%; ; min-height: 60vh; }
+    .main { max-width: 80%; } /* min-height: 60vh; */
 
     .profile { flex-basis: 50%; max-width: 40%; max-height: 40%; }
     
@@ -141,7 +145,7 @@ a { color: var(--link-color); text-decoration: underline }
 /* Bigger screens */
 @media (min-width: 1601px) {
     
-    .main{ max-width: 70%; ; min-height: 80vh; }
+    .main{ max-width: 70%; ; } /* min-height: 80vh; */
     
     .profile { flex-basis: 50%; 
                max-width: 40%;
