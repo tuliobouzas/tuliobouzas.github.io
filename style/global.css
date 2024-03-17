@@ -62,7 +62,7 @@ body { font-family: var(--body-font); font-size: var(--body-font-size);         
 
     /* home - picture */
     .profile { float: left; margin-right: 100px; margin-top: 10px;               /* location    */
-               margin-bottom: 40px; margin-right: 40px; flex: 0 0 auto;  
+               margin-bottom: 40px; margin-right: 60px; flex: 0 0 auto;  
                max-width: 500px; height: auto; 
                border-radius: 5%;}                                                /* size        */
 
@@ -145,8 +145,8 @@ a { color: var(--link-color); text-decoration: underline }
     
     .profile { flex-basis: 50%; 
                max-width: 40%;
-               max-height: 40%; }
+               max-height: 50%; }
     
     .info-home { flex-basis: 50%; 
-                 max-width: 40%; }
+                 max-width: 50%; }
 }
