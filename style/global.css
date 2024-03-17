@@ -8,6 +8,7 @@
     --body-color: #313131;
     --link-color: rgb(68, 125, 190); 
     --theme-color: rgb(155, 184, 175);
+    --theme-color-dark: rgb(111, 146, 135);
     --light-color: rgba(239,234,222,1);
     --title-bar: 500px;
 }
@@ -84,7 +85,7 @@ body { font-family: var(--body-font); font-size: var(--body-font-size);         
                   display: grid; grid-template-columns: 1fr 300px 1fr; }
     .footer-bar a img { margin: 10px; text-align: center;                        /* location    */
                         width: 30px; height: auto; }                             /* size        */               
-   
+     
     /* markdown font */
     .markdown-font {
                 font-family: var(--body-font);
@@ -129,8 +130,6 @@ a { color: var(--link-color); text-decoration: underline }
     .main { max-width: 80%; ; min-height: 60vh; }
 
     .profile { flex-basis: 50%; max-width: 40%; max-height: 40%; }
-    
-    .info { flex-basis: 50%; max-width: 40%; }
     
     .info-home { flex-basis: 50%; max-width: 40%; }
 
