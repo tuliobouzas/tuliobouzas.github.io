@@ -5,7 +5,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Library that allows markdown texts to be edited -->
+        <!-- Script that allows markdown texts to be edited -->
         <script src="/js/zero-md-config.js" ></script>
         <!-- Library that allows markdown texts to be embedded -->
         <script type="module" src="/js/lib/zero-md.min.js"></script>
@@ -13,6 +13,8 @@
         <title>Túlio Bouzas' Research</title>
         <!-- My custom theme -->
         <link rel="stylesheet" href="/style/global.css">
+        <!-- Page icon -->
+        <link rel="shortcut icon" type="image/png" href="/style/img/icon.png" />
         </head> 
         
         <!-- Actual page -->
@@ -44,9 +46,10 @@
             </div>
     
             <!-- Footer-->
-            <footer class="footer" >
-                <include src="style/footer.html"></include>
-            </footer>
+            <div id="footer-placeholder">
+                <!-- Script that imports the footer -->
+                <script src="/js/footer.js"></script>
+            </div>
         
         </body>
         </html>
