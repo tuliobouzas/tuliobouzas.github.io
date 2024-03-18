@@ -32,4 +32,6 @@ details > summary {
 
 <hr text-align="center" class="solid" width="100%">
 
-- Topics in Macroeconomics and Macroeconomics 2 [with Marina Delmondes de Carvalho Rossi] (2021), RM Economics
+- Topics in Macroeconomics[with Marina Delmondes de Carvalho Rossi] (2021), RM Economics
+
+- Macroeconomics 2 [with Marina Delmondes de Carvalho Rossi] (2021), Ba. in Economics
