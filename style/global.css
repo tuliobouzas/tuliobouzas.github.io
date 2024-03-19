@@ -76,7 +76,7 @@ body { font-family: var(--body-font); font-size: var(--body-font-size);         
                  min-width: 30%; max-width: 500px }                              /* size        */
 
     /* documents */
-    .doc { margin-top: 0px; text-align: justify; }
+    .doc { padding: 20px; max-width: 1000px; }
 
     /* footer */
     .footer { padding-top: 20px; margin-top:50px;                                /* location    */      
@@ -91,11 +91,12 @@ body { font-family: var(--body-font); font-size: var(--body-font-size);         
                         width: 30px; height: auto; }                             /* size        */               
      
     /* markdown font */
-    .markdown-font {
-                font-family: var(--body-font);
-                color: var(--body-color); 
-                font-size: var(--body-font-size);
-              }
+    .markdown-font { font-family: var(--body-font);
+                     color: var(--body-color); 
+                     font-size: var(--body-font-size); }
+
+    /* cv frame */
+    .cv-frame { width: 100%; height: auto; margin: auto; }
 
 /* Links */
 a { color: var(--link-color); text-decoration: underline }
