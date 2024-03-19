@@ -29,5 +29,5 @@ My name is Túlio César Bouzas Correa, and I am pursuing my PhD in Economics at
 <br /><br />
 
 <p> <span> <em>Contact info:</em> </span> <br />  <a href="mailto:t.bouzas@tilburguniversity.edu">T.bouzas@tilburguniversity.edu </a> </p>
-<p> <span> <em>Curriculum Vitae:</em> </span> <br /> <a href="cv.pdf">Download</a> </p>
+<p> <span> <em>Curriculum Vitae:</em> </span> <br /> <a href="/files/">Download</a> </p>
 <p> <span> <em>Office:</em> </span> <br /> K342, Warandelaan 2, 5037 AB Tilburg, NL </p>
