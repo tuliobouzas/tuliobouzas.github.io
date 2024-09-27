@@ -29,12 +29,13 @@ details > summary {
 
 <hr text-align="center" class="solid" width="100%">
 
-**On the Distributional Effects of Monetary Shocks and Market Incompleteness:** A model on the dynamics in the absence of helicopter drops (2024).
+**On the Distributional Effects of Monetary Shocks and Market Incompleteness:** (2024).
 
-<details class="research-links"> <summary> Abstract </summary> I study the transmission of distortionary monetary policy shocks in an environment with incomplete markets. Using a heterogeneous agents general equilibrium model, I demonstrate that frictionless credit markets generate infinite stationary equilibria for a given monetary base, but a unique fundamental stationary equilibrium, where the distribution of monetary holdings mirrors productivity. I also show that only financially imperfect economies return to the fundamental stationary equilibrium after an unforeseeable monetary shock that redistributes monetary holdings, with aggregate effects on output and endogenous price stickiness along the transition. In financially developed economies, the distortions are smaller, but monetary shocks create hysteresis by making the idiosyncratic shocks permanent, as well-functioning credit markets allow for nearly perfect risk sharing. As a result, while market completion enhances welfare, this improvement is limited by the irreversibility of the idiosyncratic shocks.
+<details class="research-links"> <summary> Abstract </summary> I study the transmission of distortionary monetary policy shocks under incomplete markets. Using a heterogeneous agents general equilibrium model, I demonstrate that there is a unique fundamental stationary equilibrium, where the distribution of monetary holdings mirrors productivity, but infinite non-fundamental stationary equilibria for a given monetary base in the presence of a frictionless bonds market. Only financially constrained economies return to the fundamental stationary equilibrium after an unforeseeable monetary shock that redistributes monetary holdings, with aggregate effects on output and endogenous price stickiness along the transition. In financially developed economies, distortions are smaller, and effects on aggregate variables are negligible, but monetary shocks create hysteresis by making the consequences of idiosyncratic shocks permanent. While partial market completion enhances welfare by enabling nearly perfect risk sharing, this improvement is limited by the irreversibility of the idiosyncratic shocks. Ultimately, distributional effects are irrelevant for monetary policy transmission to aggregate variables in developed economies but critical in poorer coun-
+tries.
  </details>
 
-<div class="research-links"> | <a href="/files/papers/distributional.pdf"> First draft </a> </div>
+<div class="research-links"> | <a href="/files/papers/Tulio Bouzas - On the Distributional Effects of Monetary Shocks.pdf"> First draft </a> </div>
 
 </div>
 
