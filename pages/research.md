@@ -35,7 +35,7 @@ details > summary {
 tries.
  </details>
 
-<div class="research-links"> | <a href="/files/papers/Tulio Bouzas - On the Distributional Effects of Monetary Shocks.pdf"> First draft </a> </div> | <a href="https://pure.uvt.nl/ws/portalfiles/portal/102851708/2024-021.pdf"> Working paper (CentER Discussion Papers) </a>
+<div class="research-links"> | <a href="/files/papers/Tulio Bouzas - On the Distributional Effects of Monetary Shocks.pdf"> Latest version </a> </div> | <a href="https://pure.uvt.nl/ws/portalfiles/portal/102851708/2024-021.pdf"> Working paper (CentER Discussion Papers) </a>
 
 </div>
 
