@@ -86,9 +86,20 @@ body { font-family: var(--body-font); font-size: var(--body-font-size);         
     /* footer */
     .footer { padding-top: 20px; margin-top:50px;                                /* location    */      
               background: var(--theme-color);                                    /* background  */
-              height: 150px ; width: 100%;                                      /* size        */
-              bottom: 0;                                                        /* unbounded below */ 
+              position: relative;
+              height: 150px ; width: 100%; overflow: hidden;                     /* size        */
               color: var(--light-color); font-size: var(--body-font-size); }     /* text        */
+              
+    .footer::after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 0;
+              width: 100%;
+              height: 300px; /* not too big! just enough for bounce */
+              background: var(--theme-color);
+              pointer-events: none;
+              }
 
     /* footer bar */
     .footer-bar { width: 90%; text-align: center; margin: auto; 
