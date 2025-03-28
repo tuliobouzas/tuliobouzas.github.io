@@ -7,7 +7,7 @@
     --title-font: Georgia;
     --body-color: #313131;
     --link-color: rgb(68, 125, 190); 
-    --theme-color: rgb(155, 184, 175);
+    --theme-color: rgb(166, 177, 166);
     --theme-color-dark: rgb(111, 146, 135);
     --light-color: rgba(239,234,222,1);
     --title-bar: 500px;
@@ -86,8 +86,10 @@ body { font-family: var(--body-font); font-size: var(--body-font-size);         
               color: var(--light-color); font-size: var(--body-font-size); }     /* text        */
 
     /* footer bar */
-    .footer-bar { width: 90%; text-align: center; margin: auto; 
+    .footer-bar { width: 90%; text-align: center; margin: auto; margin-bottom: 0; 
                   display: grid; grid-template-columns: 1fr 300px 1fr; }
+
+    /* footer bar icons */
     .footer-bar a img { margin: 10px; text-align: center;                        /* location    */
                         width: 30px; height: auto; }                             /* size        */               
      
