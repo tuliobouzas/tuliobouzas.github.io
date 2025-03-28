@@ -19,11 +19,7 @@ html { height: 100%; }
 /* Body of the document */
 body { font-family: var(--body-font); font-size: var(--body-font-size);           /* text        */
        letter-spacing: 0.5px; margin: 0; padding: 0;                              /* location    */
-       background: linear-gradient(to bottom, 
-                    rgba(0,0,0,0.65) 0%, 
-                    rgba(0,0,0,0.65) 50%, 
-                    var(--theme-color) 50%,
-                    var(--theme-color) 10%); /*var(--theme-color);rgba(239,234,222,0.2); */                                      /* background  */
+       background: var(--theme-color);                                            /* background  */
        min-height: 100%; display: flex; flex-direction: column;}
     
     /* Page wrap */
