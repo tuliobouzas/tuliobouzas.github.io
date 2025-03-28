@@ -164,7 +164,7 @@ a { color: var(--link-color); text-decoration: underline }
 /* Smaller screens */
 @media (max-width: 800px) {
     
-    .header {flex: 1 auto; max-height: 25vh;}
+    .header {flex: 1 auto; max-height: 350px;}
 
     .site{ font-size: 28px; padding: 8px; padding-left: 12px; }
     
@@ -202,7 +202,7 @@ a { color: var(--link-color); text-decoration: underline }
 
     .subtitle {font-size: 22px; }
 
-    .main{ width: 70%; flex-direction: column; min-height: 55vh; }  /* min-height: 135vh; */
+    .main{ width: 70%; flex-direction: column; min-height: 52vh; }  /* min-height: 135vh; */
     
     .profile,
     .info-home { flex-basis: 100%; max-width: 100%;}
