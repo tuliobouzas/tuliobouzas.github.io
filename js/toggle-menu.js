@@ -1,9 +1,12 @@
 function toggleMenu() {
-    var x = document.getElementById("my-links");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
+  const links = document.getElementById("my-links");
+  const burger = document.querySelector(".burger");
 
+  if (links.style.display === "block") {
+    links.style.display = "none";
+    burger.classList.remove("activated");
+  } else {
+    links.style.display = "block";
+    burger.classList.add("activated");
+  }
+}
