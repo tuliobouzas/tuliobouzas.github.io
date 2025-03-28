@@ -24,7 +24,7 @@ body { font-family: var(--body-font); font-size: var(--body-font-size);         
     
     /* Page wrap */
     .page-wrap {background: rgba(250,247,242,1);
-    padding-bottom: 40px;}    
+    padding-bottom: 60px;}    
     
     /* cover */
     .header { background: url('img/background.png') no-repeat center center; 
@@ -88,7 +88,7 @@ body { font-family: var(--body-font); font-size: var(--body-font-size);         
            width: 100%; margin-bottom: -50px }                                   /* size        */
 
     /* footer */
-    .footer { padding-top: 20px; margin-top:50px;                                /* location    */      
+    .footer { padding-top: 0px; margin-top:40px;                                /* location    */      
               background: var(--theme-color);                                    /* background  */
               position: relative;
               height: 150px ; width: 100%; overflow: hidden;                     /* size        */
@@ -106,7 +106,7 @@ body { font-family: var(--body-font); font-size: var(--body-font-size);         
               }
 
     /* footer bar */
-    .footer-bar { width: 90%; text-align: center; margin: auto; 
+    .footer-bar { width: 90%; text-align: center; margin: auto;
                   display: grid; grid-template-columns: 1fr 300px 1fr; }
 
     /* footer bar icons */

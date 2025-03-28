@@ -20,18 +20,29 @@ details > summary {
 
 <!-- Actual text -->
 
-## Current teaching assistant, Tilburg University
+## Current teaching
 
 <hr text-align="center" class="solid" width="100%">
 
-- Quantitative Dynamic Macroeconomics [with Konstantin Gantert] (2023 - present), Ba. in Economics
+#### At Tilburg University
+
+**Quantitative Dynamic Macroeconomics** [with Konstantin Gantert] (2023 - present), Teaching assisntant, BSc. in Economics
 
 </br></br>
 
-## Past teaching assistant, Universidade de Brasília
+## Past teaching
 
 <hr text-align="center" class="solid" width="100%">
 
-- Topics in Macroeconomics[with Marina Delmondes de Carvalho Rossi] (2021), RM Economics
+#### At Tilburg University
+**Data Science and Society** [with Cédric Argenton] (2024), Teaching assisntant, MSc. Economics
 
-- Macroeconomics 2 [with Marina Delmondes de Carvalho Rossi] (2021), Ba. in Economics
+**Economics for Social Sciences** [with Annemarie van der Zwet, Lex Meijdam, Wietse Mesman and Luc Timmermans] (2024), Teaching assisntant, BSc. in Social Sciences
+
+<br>
+
+#### At University of Brasilia
+
+**Topics in Macroeconomics** [with Marina Delmondes de Carvalho Rossi and Sebastião Oliveira] (2021), Teaching assisntant, RM Economics
+
+**Macroeconomics 2** [with Marina Delmondes de Carvalho Rossi and Sebastião Oliveira] (2021), Teaching assisntant, BSc. in Economics
