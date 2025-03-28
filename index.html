@@ -8,6 +8,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Google Search Console verification -->
 <meta name="google-site-verification" content="1FHsb90NCC4NlMfwsMjsauJJHirBAcf-dNQvfsrfYVo" />   
+<!-- Script for the toggle menu -->
+<script src="/js/toggle-menu.js" ></script>
 <!-- Script that allows markdown texts to be edited -->
 <script src="/js/zero-md-config.js" ></script>
 <!-- Library that allows markdown texts to be embedded -->
@@ -30,10 +32,13 @@
         <div class="site">Túlio Bouzas</div>
         <div id="navbar-placeholder">
             <div class="navbar">
-                <a href="index.html" class="navbar-link navbar-active">Home</a>
-                <a href="/files/cv.pdf" class="navbar-link">CV</a>
-                <a href="research.html" class="navbar-link">Research</a>
-                <a href="teaching.html" class="navbar-link">Teaching</a>
+                <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+                <div id="my-links">
+                    <a href="index.html" class="navbar-link navbar-active">Home</a>
+                    <a href="/files/cv.pdf" class = navbar-link >CV</a>
+                    <a href="research.html" class = navbar-link >Research</a>
+                    <a href="teaching.html" class = navbar-link >Teaching</a>
+                </div>
             </div>
         </div>
         <div class="title">Túlio Bouzas</div>
