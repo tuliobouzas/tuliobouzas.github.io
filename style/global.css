@@ -82,11 +82,12 @@ body { font-family: var(--body-font); font-size: var(--body-font-size);         
     /* footer */
     .footer { padding-top: 20px; margin-top:50px;                                /* location    */      
               background: var(--theme-color);                                    /* background  */
-              height: 150px ; width: 100%;                                       /* size        */
+              min-height: 150px ; width: 100%;                                   /* size        */
+              margin-bottom: 0;                                                  /* unbounded below */ 
               color: var(--light-color); font-size: var(--body-font-size); }     /* text        */
 
     /* footer bar */
-    .footer-bar { width: 90%; text-align: center; margin: auto; margin-bottom: 0; 
+    .footer-bar { width: 90%; text-align: center; margin: auto; 
                   display: grid; grid-template-columns: 1fr 300px 1fr; }
 
     /* footer bar icons */
