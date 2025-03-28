@@ -83,7 +83,7 @@ body { font-family: var(--body-font); font-size: var(--body-font-size);         
     .footer { padding-top: 20px; margin-top:50px;                                /* location    */      
               background: var(--theme-color);                                    /* background  */
               min-height: 150px ; width: 100%;                                   /* size        */
-              margin-bottom: 0;                                                  /* unbounded below */ 
+              margin-bottom: auto;                                               /* unbounded below */ 
               color: var(--light-color); font-size: var(--body-font-size); }     /* text        */
 
     /* footer bar */
