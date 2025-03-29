@@ -290,7 +290,15 @@ body::after {
           text-align: center;                        
           width: 30px; 
           height: auto; 
-        }                                      
+          display: inline-block;
+          transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          will-change: transform; 
+        }
+
+        /* animation for social network icons */
+        .footer-bar a:hover img {
+          transform: scale(1.4) translateY(-3px);
+        }
      
     /* markdown font */
     .markdown-font { 
