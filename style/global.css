@@ -29,12 +29,12 @@ body {
   letter-spacing: 0.5px; 
   margin: 0; 
   padding: 0;                              
-  background: linear-gradient(to bottom, 
+  background-color: var(--theme-color);
+  background-image: linear-gradient(to bottom, 
       rgba(0,0,0,0.65) 0vh,
       rgba(0,0,0,0.65) 50vh,
       var(--theme-color) 50vh,
-      var(--theme-color) 100vh),
-      var(--theme-color); /*var(--theme-color);*/                                /* footer color for overscrolling */
+      var(--theme-color) 100vh); /*var(--theme-color);*/                                /* footer color for overscrolling */
   min-height: 100vh; /* 100% */ 
   display: flex; 
   flex-direction: column;
