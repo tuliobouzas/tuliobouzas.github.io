@@ -355,6 +355,10 @@ a {
       text-align: right;
       }  
 
+      .label::before {
+        transition: all .1s;                                   /* making animation snapier */
+      }
+
       .navbar-link.navbar-active { 
         display: inline-block;
         }   
