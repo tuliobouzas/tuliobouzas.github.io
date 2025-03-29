@@ -23,18 +23,6 @@ html {
   background-color: var(--navbar-color);                  /* color for overscrolling above */
 }
 
-body::before {
-  content: "";
-  position: fixed;
-  top: -100vh;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: var(--navbar-color); /* or match your intended top bg */
-  z-index: 9999; /* must be above navbar */
-  pointer-events: none;
-}
-
 
 /* BODY OF THE DOCUMENT */
 body { 
