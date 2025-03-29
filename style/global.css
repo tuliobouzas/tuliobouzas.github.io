@@ -28,17 +28,13 @@ body {
   font-size: var(--body-font-size);          
   letter-spacing: 0.5px; 
   margin: 0; 
-  padding: 0;                              
-  background-color: var(--theme-color);
-  background-image: linear-gradient(
+  padding: 0;
+  background: linear-gradient(                         /* footer color for overscrolling */
     to bottom,
     rgba(0, 0, 0, 0.65) 0vh,
     rgba(0, 0, 0, 0.65) 50vh,
-    var(--theme-color) 50vh,
-    var(--theme-color) 100vh
-  );
-  background-repeat: no-repeat;
-  background-size: 100% 100vh;                           /* footer color for overscrolling */
+    var(--theme-color) 50vh
+    );                         
   min-height: 100vh; /* 100% */ 
   display: flex; 
   flex-direction: column;
