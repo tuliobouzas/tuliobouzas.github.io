@@ -115,18 +115,48 @@ body::after {
         
         /* links of the navbar */
         .navbar-link { 
-          text-decoration: none; 
+          text-decoration: none;
+          text-align: center; 
           color: var(--light-color);             
           font-size: 20px;
-          padding: 10px; 
+          padding: 10px 10px; 
           display: inline-block;                                         
           justify-content: flex-end;                                     /* flushing left */
-        }         
+          position: relative;
+          cursor: pointer;
+          overflow: hidden;
+          margin: 0 8px;
+        }  
+        
+        /* underline for hoovered button */
+        .label::before {
+          content: "";
+          position: absolute;
+          width: 0;
+          background : var(--theme-color);
+          left: 50%;
+          height: 5px;
+          bottom: -7px;
+          transition: all .3s;
+          opacity: 1;
+        }
+
+        .label:hover::before {
+          width: 124%;
+          left: -12%;
+        }
 
         /* indicator of current section */
         .navbar-link.navbar-active { 
-          display: inline-block; 
-          border-bottom: 7px solid var(--theme-color); 
+          position: relative;
+          background: linear-gradient(to bottom,
+            rgb(0,0,0,0) 0%,
+            rgb(0,0,0,0) 15%,
+            var(--light-color) 15%,
+            var(--light-color) 85%,
+            rgb(0,0,0,0) 85%);
+          background-position: center;
+          color: var(--navbar-color);
         }
 
     /* sub-bar */
@@ -316,8 +346,18 @@ a {
       padding: 8px;
       font-size: 24px;
       margin-right: 12px;
-       display: flex; 
-      }            
+      display: block;
+      text-align: right;
+      }  
+      
+      .label{
+        position: relative;
+        display: inline-block;
+      }
+
+      .navbar-link.navbar-active { 
+        display: inline-block;
+        }   
 
     .title {
       font-size: 60px; 
@@ -357,7 +397,7 @@ a {
 
   }
 
-  /* Table screens */
+  /* Tablet screens */
   @media (min-width: 801px) and (max-width: 1600px) {
     
     .main { 
