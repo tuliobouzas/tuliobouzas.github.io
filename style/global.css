@@ -20,8 +20,21 @@
 /* Whole document */
 html { 
   height: 100%; 
-  background-color: var(--navbar-color);                  /* color for overscrolling above */
+  background-color: transparent;                  /* color for overscrolling above */
 }
+
+body::before {
+  content: "";
+  position: fixed;
+  top: -50vh;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: var(--navbar-color);
+  z-index: -1;
+  pointer-events: none;
+}
+
 
 
 /* BODY OF THE DOCUMENT */
@@ -97,13 +110,20 @@ body::after {
         }
 
     /* navigation bar */
+    .navbar-container {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      height: 0; /* this is key: prevents extra space */
+      overflow: visible;
+    }
+
     .navbar { 
       padding: 0px;                                                     
       text-align: right; 
       position: fixed;                                                    
       min-height: 50px ;
-      width: 100%;
-      z-index: 999;                                                     /* above most classes */
+      width: 100%;                                                     /* above most classes */
       overflow: hidden;
       background: rgba(0,0,0,0.75);                                   /* background  */
     }
