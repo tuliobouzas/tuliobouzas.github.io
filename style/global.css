@@ -142,7 +142,7 @@ body::after {
           left: 50%;
           height: 5px;
           bottom: -7px;
-          transition: all .3s;
+          transition: all .2s;
           opacity: 1;
         }
 
@@ -285,7 +285,8 @@ body::after {
 
         /* footer bar icons */
         .footer-bar a img { 
-          margin: 10px; 
+          margin: 10px;
+          margin-top: -3px; 
           text-align: center;                        
           width: 30px; 
           height: auto; 
@@ -356,7 +357,7 @@ a {
       }  
 
       .label::before {
-        transition: all .1s;                                   /* making animation snapier */
+        transition: all .05s;                                   /* making animation snapier */
       }
 
       .navbar-link.navbar-active { 
@@ -390,7 +391,8 @@ a {
     }
 
     .footer-bar a img { 
-      margin: 4px; 
+      margin: 4px;
+      margin-top: -3px; 
       width: 27px; 
     }
 
