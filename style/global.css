@@ -19,18 +19,7 @@
 /* Whole document */
 html { 
   height: 100%; 
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  top: -50vh; /* This pushes it above the viewport */
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: rgba(0,0,0,0.65);
-  z-index: -1;
-  pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.65);
 }
 
 
