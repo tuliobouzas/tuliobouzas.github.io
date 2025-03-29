@@ -10,7 +10,7 @@
     --theme-color: rgb(166, 177, 166);
     --theme-color-dark: rgb(111, 146, 135);
     --light-color: rgba(239,234,222,1);
-    --navbar-color: rgba(83, 81, 77);
+    --navbar-color: rgb(60,58,56); /* rgba(83, 81, 77); */
     --title-bar: 500px;
     --burger-size: 30px;
     --burger-thickness: 3px;
@@ -105,7 +105,7 @@ body::after {
       width: 100%;
       z-index: 999;                                                     /* above most classes */
       overflow: hidden;
-      background: rgba(0,0,0,0.65);                                   /* background  */
+      background: rgba(0,0,0,0.75);                                   /* background  */
     }
     
         /* link bar */  
