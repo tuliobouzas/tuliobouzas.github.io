@@ -7,15 +7,18 @@ a {
 }
 
 h1,h2,h3,h4,h5.h6 {
-    font-style: normal; font-family: var(--title-font) ;
+    font-style: normal; 
+    font-family: var(--title-font) ;
     color: var(--theme-color-dark);
 }
 
 details > summary {
     cursor: pointer;
-    color: var(--link-color); /* Example style */
+    color: var(--link-color); 
     text-decoration: underline;
-    list-style:  none; } 
+    list-style:  none; 
+} 
+
 </style>
 
 <!-- Actual text -->

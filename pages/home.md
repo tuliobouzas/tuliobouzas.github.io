@@ -7,12 +7,15 @@ a {
 }
 
 em { 
-    font-size: 28px; font-style: normal; font-family: var(--title-font) ;
+    font-size: 28px; 
+    font-style: normal; 
+    font-family: var(--title-font) ;
     color: black; 
 } 
 
 h1,h2,h3,h4,h5.h6 {
-    font-style: normal; font-family: var(--title-font) ;
+    font-style: normal; 
+    font-family: var(--title-font) ;
     color: black;
 }
 
