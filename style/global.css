@@ -129,6 +129,11 @@ body::after {
         }  
         
         /* underline for hoovered button */
+        .label{
+          position: relative;
+          display: inline-block;
+        }
+
         .label::before {
           content: "";
           position: absolute;
@@ -349,11 +354,6 @@ a {
       display: block;
       text-align: right;
       }  
-      
-      .label{
-        position: relative;
-        display: inline-block;
-      }
 
       .navbar-link.navbar-active { 
         display: inline-block;
