@@ -19,11 +19,18 @@ details > summary {
     list-style:  none; 
 } 
 
-/* Research links behavior */
+/* research links behavior */
 .research-links { 
     display: inline-block; 
     vertical-align: middle;            /* in-line      */
     margin-right: 10px; 
+}
+
+/* style lines */
+.solid {
+    color: var(--theme-color-dark);
+    background: var(--theme-color-dark);
+    height: 1px;
 }
  
 </style>

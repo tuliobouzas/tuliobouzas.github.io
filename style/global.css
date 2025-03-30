@@ -11,7 +11,7 @@
     --theme-color-dark: rgb(111, 146, 135);
     --light-color: rgba(239,234,222,1);
     --navbar-color: rgb(60,58,56); /* rgba(83, 81, 77); */
-    --title-bar: 500px;
+    --title-bar: 530px;
     --burger-size: 30px;
     --burger-thickness: 3px;
 }
@@ -151,8 +151,8 @@ body::after {
         }
 
         .label:hover::before {
-          width: 124%;
-          left: -12%;
+          width: calc(100% + 20px);
+          left: -10px;
         }
 
         /* indicator of current section */
@@ -182,7 +182,15 @@ body::after {
       font-family: var(--title-font);      
       margin-top: 110px; 
       text-align: center; 
-    }                              
+    }   
+    
+    /* title underscore */
+    .title-line {
+      height: 2px; 
+      width: var(--title-bar); 
+      border: rgb(0,0,0); 
+      background-color: rgb(0,0,0)
+    }
     
     /* subtitle of the page */
     .subtitle { 

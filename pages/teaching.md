@@ -19,6 +19,13 @@ details > summary {
     list-style:  none; 
 } 
 
+/* style lines */
+.solid {
+    color: var(--theme-color-dark);
+    background: var(--theme-color-dark);
+    height: 1px;
+}
+
 </style>
 
 <!-- Actual text -->
