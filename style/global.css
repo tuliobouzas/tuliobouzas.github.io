@@ -284,15 +284,15 @@ body::after {
           text-align: center; 
           margin: auto;
           display: grid; 
-          grid-template-columns: 1fr 300px 1fr; 
+          grid-template-columns: 1fr 370px 1fr; 
         }
 
         /* footer bar icons */
         .footer-bar a img { 
           margin: 10px;
-          margin-top: -3px; 
+          margin-top: -8px; 
           text-align: center;                        
-          width: 30px; 
+          width: 40px; 
           height: auto; 
           display: inline-block;
           transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -399,13 +399,13 @@ a {
 
     .footer-bar { 
       width: 90%; 
-      grid-template-columns: 1fr 230px 1fr;
+      grid-template-columns: 1fr 250px 1fr;
     }
 
     .footer-bar a img { 
-      margin: 4px;
+      margin: 5px;
       margin-top: -3px; 
-      width: 27px; 
+      width: 30px; 
     }
 
     :root {
