@@ -1,24 +1,11 @@
  <!-- HOME CONTENTS -->
 
- <!-- Styling -->
-<style> 
-a {
-    color: var(--link-color);
-}
-
-em { 
-    font-size: 28px; 
-    font-style: normal; 
-    font-family: var(--title-font) ;
-    color: black; 
-} 
-
-h1,h2,h3,h4,h5.h6 {
-    font-style: normal; 
-    font-family: var(--title-font) ;
-    color: black;
-}
-
+<!-- Styling -->
+<link rel="stylesheet" href="/style/markdown.css">
+<style>
+    h1 {
+        color: #000;                      /* changing the color of h1 for this file */
+    }
 </style>
 
 <!-- Actual text-->

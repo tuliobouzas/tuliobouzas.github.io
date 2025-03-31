@@ -1,32 +1,7 @@
 <!-- TEACHING CONTENTS -->
 
 <!-- Styling -->
-<style> 
-a {
-    color: var(--link-color);
-}
-
-h1,h2,h3,h4,h5.h6 {
-    font-style: normal; 
-    font-family: var(--title-font) ;
-    color: var(--theme-color-dark);
-}
-
-details > summary {
-    cursor: pointer;
-    color: var(--link-color); 
-    text-decoration: underline;
-    list-style:  none; 
-} 
-
-/* style lines */
-.solid {
-    color: var(--theme-color-dark);
-    background: var(--theme-color-dark);
-    height: 1px;
-}
-
-</style>
+<link rel="stylesheet" href="/style/markdown.css">
 
 <!-- Actual text -->
 

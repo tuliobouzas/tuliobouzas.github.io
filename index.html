@@ -94,14 +94,17 @@
     </div>
     
     <!-- Footer-->
-    <footer id="footer-placeholder">
+    <div id="footer-placeholder">
         <!-- Script that imports the footer -->
         <script src="/js/footer.js"></script>
-    </footer>
+    </div>
 
     <!-- No JavaScript error message-->
     <noscript>
-        <iframe src="style/noscript.html" class="noscript-overlay"></iframe>
+        <!-- Overwriting document-wide styling choices -->
+        <link rel="stylesheet" href="/style/noscript.css">
+
+        <iframe src="style/noscript.html" class="noscript-overlay" scrolling="no"></iframe>
     </noscript>
 
 </body>

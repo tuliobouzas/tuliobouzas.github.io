@@ -326,14 +326,16 @@ body::after {
       left: 0;
       width: 100vw;
       min-height: 100vh;
+      overflow: hidden;
       background-color: var(--light-color);
       color: #000;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
       font-size: 1.5rem;
-      padding: 2rem;
+      padding-bottom: 4rem;
       box-sizing: border-box;
       z-index: 9999;
 
@@ -342,6 +344,24 @@ body::after {
       text-align: center;
       }
 
+      /* footer logo */
+      .footer.bar {
+        position:relative; 
+        bottom: 500px;
+        padding: 5px; 
+        clear: both
+      }
+
+      /* Mobile page */
+      @media (max-width: 800px) {
+        .profile {
+          margin-top: -100px;
+        }
+
+        .info-home {
+          margin-bottom: 100px;
+        }
+      }
     }
 
 /* Links */
@@ -349,6 +369,11 @@ a {
   color: var(--link-color); 
   text-decoration: underline;
  }
+
+iframe {
+  overflow: hidden;
+  border: none;
+}
 
 
 /* MEDIA QUERIES */
