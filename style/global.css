@@ -319,6 +319,31 @@ body::after {
       font-size: var(--body-font-size); 
     }
 
+    /* no javascript message */
+    .noscript-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      min-height: 100vh;
+      background-color: var(--light-color);
+      color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 2rem;
+      box-sizing: border-box;
+      z-index: 9999;
+
+      h1 {
+      color: var(--theme-color-dark);
+      text-align: center;
+      }
+
+    }
+
 /* Links */
 a { 
   color: var(--link-color); 
