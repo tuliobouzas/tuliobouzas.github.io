@@ -352,7 +352,7 @@ body::after {
         clear: both
       }
 
-      /* Mobile page */
+      /* mobile page */
       @media (max-width: 800px) {
         .profile {
           margin-top: -100px;
@@ -360,6 +360,27 @@ body::after {
 
         .info-home {
           margin-bottom: 100px;
+        }
+      }
+
+      /* tablet screens */
+      @media (min-width: 801px) and (max-width: 1600px) {
+        
+        .profile { 
+          padding-top: calc(200px - 5vw); 
+        }
+
+        .info-home {
+          padding-top: 8vw;
+        }
+
+      }
+
+      /* bigger screens */
+      @media (min-width: 1601px) {
+        
+        .info-home {
+          padding-top: 5.5vw;
         }
       }
     }
