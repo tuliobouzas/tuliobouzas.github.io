@@ -84,7 +84,8 @@
         <div class="main">
                 
             <!-- My picture -->
-            <img class="profile" src="/style/img/profile.avif" alt="Profile Picture">
+            <img class="profile" src="/style/img/profile.avif" alt="Profile Picture" style="cursor: pointer; transition: transform 0.3s;" 
+            onclick= "this.src = (this.src.indexOf('profile.avif') !== -1) ? '/style/img/profile-suit.jpeg' : '/style/img/profile.avif';">
             
             <!-- Text -->
             <div class="info-home">
