@@ -1,10 +1,10 @@
 /* Whole document */
 html { 
-    background-color: var(--noscript-color);                  /* color for overscrolling above */
+    background-color: var(--light-color);                  /* color for overscrolling above */
   }
   
   
 /* BODY OF THE DOCUMENT */
 body::after {
-    background: var(--noscript-color);                        /* color for overscrolling below */
+    background: var(--light-color);                        /* color for overscrolling below */
 }
