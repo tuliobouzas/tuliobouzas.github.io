@@ -69,9 +69,9 @@
                 </div>
             </div>
         </nav>
-        <div class="title">Túlio Bouzas</div>
-        <hr class="title-line" style="width:var(--title-bar)">
-        <div class="subtitle">PhD candidate at Tilburg University</div>
+        <div class="title">{{ .Params.page_title }}</div>
+        <hr class="title-line" style="width:calc({{ .Params.line_factor }}*var(--title-bar))">
+        <div class="subtitle">{{ .Params.page_subtitle }}</div>
     </div>
 
     <div class="line"></div>

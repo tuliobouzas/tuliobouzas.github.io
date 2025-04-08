@@ -3,6 +3,7 @@ title: "Túlio Bouzas' Homepage"
 description: "Welcome to Túlio Bouzas' homepage. Explore his research in monetary, and development economics."
 page_title: "Túlio Bouzas"
 page_subtitle: "PhD candidate at Tilburg University"
+line_factor: "1"
 draft: false
 ---
 
