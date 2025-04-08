@@ -1,3 +1,11 @@
+---
+title: "Túlio Bouzas' Research"
+description: "Research in monetary and development economics by Túlio Bouzas."
+page_title: "Research"
+page_subtitle: ""
+draft: false
+---
+
 <!-- RESEARCH CONTENTS -->
 
 <!-- Styling -->

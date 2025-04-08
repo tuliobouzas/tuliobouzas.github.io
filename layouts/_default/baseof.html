@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ .Title }}</title>
+
+    <!-- Page icon -->
+    <link rel="icon" type="image/png" href="/static/icons/icon.png" />
+
+    <!-- Metadata -->
+    <meta name="description" content="{{ .Params.description }}">
+    {{ if eq .RelPermalink "/" }}<meta name="google-site-verification" content="1FHsb90NCC4NlMfwsMjsauJJHirBAcf-dNQvfsrfYVo" />{{end}} 
+    <link rel="canonical" href="{{ .Permalink }}" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="en" />
+
+    <!-- Metadata for social media -->
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:description" content="{{ .Params.description }}">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:image" content="https://tuliobouzas.github.io/style/img/preview.png">
+
+    <!-- Twitter Card metadata -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ .Title }}" />
+    <meta name="twitter:description" content="{{.Params.description }}" />
+    <meta name="twitter:image" content="https://tuliobouzas.github.io/style/img/preview.png" />
+
+    <!-- Script for the toggle menu -->
+    <script src="/js/toggle-menu.js" ></script>
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/style/global.css">
+
+    <!-- Markdown Stylesheet -->
+    <link rel="stylesheet" href="/style/markdown.css">
+
+</head> 
+
+<body>
+    <div class="header">
+        <div class="site">Túlio Bouzas</div>
+        <nav>
+            <div class="navbar">
+                <div class="burger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div id="my-links">
+
+                    {{ $links := slice
+                        (dict "href" "/" "label" "Home" "active" (eq .RelPermalink "/"))
+                        (dict "href" "/files/cv.pdf" "label" "CV" "active" (eq .RelPermalink "/cv/"))
+                        (dict "href" "/research/" "label" "Research" "active" (eq .RelPermalink "/research/"))
+                        (dict "href" "/teaching/" "label" "Teaching" "active" (eq .RelPermalink "/teaching/"))
+                    }}
+                
+                    {{ range $links }}
+                        <a href="{{ .href }}" class="navbar-link{{ if .active }} navbar-active{{ end }}">
+                            <span class="label">{{ .label }}</span>
+                        </a>
+                    {{ end }}
+                    
+                </div>
+            </div>
+        </nav>
+        <div class="title">Túlio Bouzas</div>
+        <hr class="title-line" style="width:var(--title-bar)">
+        <div class="subtitle">PhD candidate at Tilburg University</div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="page-wrap">
+        <div class="main">
+            {{ block "main" . }}{{ end }}
+        </div>
+    </div>
+
+    <div id="footer-placeholder">
+        {{ partial "footer.html" . }} <!-- <script src="/js/footer.js"></script> -->
+    </div>
+
+    <!-- <noscript>
+        <link rel="stylesheet" href="/style/noscript.css">
+        {{partial "noscript.html"}}
+    </noscript> -->
+
+</body>
+</html>

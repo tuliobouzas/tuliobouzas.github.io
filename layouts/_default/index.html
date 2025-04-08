@@ -1,0 +1,11 @@
+{{ define "main" }}
+    
+    <!-- Profile picture -->
+    <img class="profile" src="/img/profile.avif" alt="Profile Picture" style="cursor: pointer; transition: transform 0.3s;" 
+    onclick="this.src = (this.src.indexOf('profile.avif') !== -1) ? '/img/profile-suit.avif' : '/img/profile.avif';">
+
+    <!-- Text -->
+    <div class="info-home">
+        {{ .Content }}
+    </div>
+{{ end }}

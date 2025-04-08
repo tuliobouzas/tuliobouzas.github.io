@@ -1,3 +1,11 @@
+---
+title: "Túlio Bouzas' Teaching"
+description: "Túlio Bouzas' teaching in macroeconomics at Tilburg and beyond."
+page_title: "Teaching"
+page_subtitle: ""
+draft: false
+---
+
 <!-- TEACHING CONTENTS -->
 
 <!-- Styling -->
