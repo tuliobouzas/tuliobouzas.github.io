@@ -1,6 +1,3 @@
 baseURL = 'https://tuliobouzas.github.io/'
 languageCode = 'en-us'
 title = "Tulio Bouzas' Webpage"
-
-[markup.goldmark.renderer]
-  unsafe = true # Allow HTML in md files

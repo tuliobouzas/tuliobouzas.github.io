@@ -11,10 +11,16 @@
         color: black; 
     } 
     
-    h1,h2,h3,h4,h5.h6 {
+    h2,h3,h4,h5,h6 {
         font-style: normal; 
         font-family: var(--title-font) ;
         color: var(--theme-color-dark);
+    }
+
+    h1 {
+        color: #000;
+        text-align: center;
+        
     }
     
     details > summary {
