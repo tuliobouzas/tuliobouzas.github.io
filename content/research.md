@@ -10,7 +10,7 @@ draft: false
 
 ## Working papers
 
-<hr text-align="center" class="solid" width="100%">
+{{< line >}}
 
 **On the Distributional Effects of Monetary Shocks and Market Incompleteness** (2024).
 
