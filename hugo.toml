@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://tuliobouzas.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Tulio Bouzas' Webpage"
 
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files
