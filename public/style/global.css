@@ -458,12 +458,13 @@ iframe {
         }   
 
     .title {
-      font-size: 60px; 
+      font-size: clamp(30px,13.8vw,60px);
+       
       padding-top: 40px; 
     }
 
     .subtitle {
-      font-size: 22px; 
+      font-size: clamp(10px,5vw,22px);
     }
 
     .main{ 
@@ -490,7 +491,7 @@ iframe {
     }
 
     :root {
-      --title-bar: 350px;
+      --title-bar: clamp(115px,81vw,350px);
       --body-font-size: 16px;
     }
 

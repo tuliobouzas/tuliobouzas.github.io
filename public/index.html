@@ -44,6 +44,15 @@
 
 <body>
     <div class="header">
+        
+        
+        <style>
+            :root {
+              --line-factor: 1;
+            }
+        </style>
+
+        
         <div class="site">Túlio Bouzas</div>
         <nav>
             <div class="navbar">
@@ -78,7 +87,7 @@
             </div>
         </nav>
         <div class="title">Túlio Bouzas</div>
-        <hr class="title-line" style="width:calc(1*var(--title-bar))">
+        <hr class="title-line" style="width:calc(var(--line-factor)*var(--title-bar))">
         <div class="subtitle">PhD candidate at Tilburg University</div>
     </div>
 
@@ -173,7 +182,7 @@ K342, Warandelaan 2, 5037 AB Tilburg, NL</p>
     <div style="text-align: center;">
         <p>@ 2025 Túlio Bouzas</p>
     </div>
-</footer>    
+</footer>   
     </div>
 
     

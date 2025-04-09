@@ -43,6 +43,15 @@
 
 <body>
     <div class="header">
+        
+        <!-- Length of the title's underscore -->
+        <style>
+            :root {
+              --line-factor: {{ .Params.line_factor }};
+            }
+        </style>
+
+        <!--Navbar -->
         <div class="site">Túlio Bouzas</div>
         <nav>
             <div class="navbar">
@@ -70,7 +79,7 @@
             </div>
         </nav>
         <div class="title">{{ .Params.page_title }}</div>
-        <hr class="title-line" style="width:calc({{ .Params.line_factor }}*var(--title-bar))">
+        <hr class="title-line" style="width:calc(var(--line-factor)*var(--title-bar))">
         <div class="subtitle">{{ .Params.page_subtitle }}</div>
     </div>
 
@@ -83,7 +92,7 @@
     </div>
 
     <div id="footer-placeholder">
-        {{ partial "footer.html" . }} <!-- <script src="/js/footer.js"></script> -->
+        {{ partial "footer.html" . }}
     </div>
 
     <!-- <noscript>
