@@ -83,26 +83,6 @@ body::after {
       display: none;                                                     /* hidden by default */
       }
 
-        .burger.activated {
-          transform: rotate(360deg);
-        }
-      
-        .burger.activated span:nth-child(1) {
-          transform: translateY(calc(var(--burger-size) / 2 - var(--burger-thickness))) rotate(45deg);
-        }
-      
-        .burger.activated span:nth-child(2) {
-          opacity: 0;
-        }
-      
-        .burger.activated span:nth-child(3) {
-          transform: translateY(calc(-1 * var(--burger-size) / 2)) rotate(-45deg);
-        }
-      
-        .burger.activated span {
-          background-color: var(--light-color);
-        }
-
     /* navigation bar */
     .navbar { 
       padding: 0px;                                                     
@@ -439,6 +419,30 @@ iframe {
         #my-links {
           display: none;                                        /* hiding by default    */ 
         } 
+
+        /* when the checkbox is checked, show links */
+        #menu-toggle:checked ~ #my-links {
+          display: block;
+        }
+
+        /* animating the burger menu button */
+        #menu-toggle:checked + .burger {
+          transform: rotate(360deg);
+        }
+      
+        #menu-toggle:checked + .burger span {
+          background-color: var(--light-color);
+        }
+      
+        #menu-toggle:checked + .burger span:nth-child(1) {
+          transform: translateY(calc(var(--burger-size) / 2 - var(--burger-thickness))) rotate(45deg);
+        }
+        #menu-toggle:checked + .burger span:nth-child(2) {
+          opacity: 0;
+        }
+        #menu-toggle:checked + .burger span:nth-child(3) {
+          transform: translateY(calc(-1 * var(--burger-size) / 2)) rotate(-45deg);
+        }
     
     .navbar-link { 
       gap: 16px;
