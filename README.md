@@ -15,6 +15,7 @@ Welcome to the repository for Túlio Bouzas' professional website. This site is 
   - **files/** – Holds all downloadable files (e.g., PDFs).
     - **papers/** – Dedicated to research papers.
   - **icons/** – Stores site icons.
+    - **backup/** – Legacy or auxiliary image assets.
   - **img/** – Contains images used across the site.
     - **backup/** – Legacy or auxiliary image assets.
   - **js/** – JavaScript files.
