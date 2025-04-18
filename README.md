@@ -1,14 +1,27 @@
-# Tulio Bouzas' Webpage
+# Túlio Bouzas' Webpage
 
-Welcome to the repository for Túlio Bouzas' professional website. This repository utilizes HTML, CSS, Markdown, and a small amount of JavaScript to embed specific elements within the webpages and to convert Markdown documents into HTML format. The directory structure of the repository is as follows:
+Welcome to the repository for Túlio Bouzas' professional website. This site is built using [Hugo](https://gohugo.io/) and incorporates HTML, CSS, Markdown, and a small amount of JavaScript to support interactive and structured content.
 
-- **files:** This directory holds all PDF files.
-    - **papers:** Specifically for research papers.
-- **js:** Contains JavaScript files.
-    - **lib:** Includes third-party libraries used in the project.
-- **pages:** Stores Markdown files, each representing the content for a webpage.
-- **style:** Encompasses CSS, shared images, icons, and HTML files that are common across multiple pages.
-    - **icons:** Dedicated to icon files.
-    - **img:** Includes cover images and profile pictures.
+## 📁 Directory Structure
 
-The code in this repository is shared under the MIT license. It also incorporates the zero-md third-party library, copyrighted in 2024, which enables the seamless conversion of Markdown to HTML.
+- **content/** – Contains Markdown files, each corresponding to a page on the site.
+
+- **layouts/** – Holds HTML templates that define how pages are rendered.
+  - **_default/** – Base templates for standard pages.
+  - **partials/** – Reusable snippets included in multiple templates.
+  - **shortcodes/** – Custom Hugo shortcodes for use within Markdown files.
+
+- **static/** – Static files copied directly to the root of the final website.
+  - **files/** – Holds all downloadable files (e.g., PDFs).
+    - **papers/** – Dedicated to research papers.
+  - **icons/** – Stores site icons.
+  - **img/** – Contains images used across the site.
+    - **backup/** – Legacy or auxiliary image assets.
+  - **js/** – JavaScript files.
+  - **style/** – CSS stylesheets.
+
+- **.git/** and **.github/** – Git-related and GitHub-specific configuration folders.
+
+## 📜 License
+
+The code in this repository is distributed under the MIT License.
