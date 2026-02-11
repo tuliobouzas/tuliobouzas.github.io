@@ -20,11 +20,11 @@ draft: false
 
     draft= "false" >}}
     
-    <a href="/files/papers/Bouzas - On the Distributional Effects of Monetary Shocks.pdf">Latest version</a> | <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5153962">SSRN</a> | <a href="https://pure.uvt.nl/ws/portalfiles/portal/102851708/2024-021.pdf"> CentER Discussion Papers </a>
+    <a href="/files/papers/Bouzas, Uras - The Price of Traceability - E-Payments, Tax Compliance, and Policy.pdf">Latest version</a>
 
 {{< /details >}}
 
-{{< break >}}
+{{< break >}}{{< break >}}
 
 **On the Distributional Effects of Monetary Shocks and Market Incompleteness** (2025).
 
@@ -34,7 +34,7 @@ draft: false
 
     draft= "false" >}}
     
-    <a href="/files/papers/Bouzas, Uras - The Price of Traceability - E-Payments, Tax Compliance, and Policy.pdf">Latest version</a>
+    <a href="/files/papers/Bouzas - On the Distributional Effects of Monetary Shocks.pdf">Latest version</a> | <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5153962">SSRN</a> | <a href="https://pure.uvt.nl/ws/portalfiles/portal/102851708/2024-021.pdf"> CentER Discussion Papers </a>
 
 {{< /details >}}
 
