@@ -24,7 +24,7 @@ draft: false
 
 {{< /details >}}
 
-{{< break >}}{{< break >}}
+{{< break >}}
 
 **On the Distributional Effects of Monetary Shocks and Market Incompleteness** (2025).
 
