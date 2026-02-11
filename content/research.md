@@ -13,7 +13,20 @@ draft: false
 
 {{< line >}}
 
-**On the Distributional Effects of Monetary Shocks and Market Incompleteness** (2024).
+**The Price of Traceability: E-Payments, Tax Compliance, and Policy** [with Burak Uras] (2026).
+
+{{< details 
+    abstract="Why do firms continue to rely on cash in economies where digital payments are widespread and electronic transaction costs are low? This paper shows that the answer lies in the interaction between payment technologies and tax enforcement. Using randomized experimental evidence from Kenyan small and medium-sized firms, we establish that the adoption of electronic payments causally increases tax compliance by raising transaction traceability. Moreover, SME survey evidence shows that tax evasion is associated with cash discounts. Motivated by these findings, we develop a microfounded general equilibrium model in which heterogeneous firms choose prices, payment acceptance, and tax evasion jointly. Cash facilitates evasion but exposes buyers to transaction risk, while electronic payments are safer yet traceable by third parties. These trade-offs generate endogenous cash discounts, selective rejection of digital payments, and coexistence of payment instruments in equilibrium. The calibrated model shows that when electronic payments are non–interest-bearing, inflation increases cash usage and tax evasion, overturning the standard prediction that inflation reduces cash use. We characterize the optimal policy mix and show that financial development, enforcement intensity, and inflation are tightly intertwined in maximizing government revenues and welfare."
+
+    draft= "false" >}}
+    
+    <a href="/files/papers/Bouzas - On the Distributional Effects of Monetary Shocks.pdf">Latest version</a> | <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5153962">SSRN</a> | <a href="https://pure.uvt.nl/ws/portalfiles/portal/102851708/2024-021.pdf"> CentER Discussion Papers </a>
+
+{{< /details >}}
+
+{{< break >}}
+
+**On the Distributional Effects of Monetary Shocks and Market Incompleteness** (2025).
 
 
 {{< details 
@@ -21,7 +34,7 @@ draft: false
 
     draft= "false" >}}
     
-    <a href="/files/papers/Tulio Bouzas - On the Distributional Effects of Monetary Shocks.pdf">Latest version</a> | <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5153962">SSRN</a> | <a href="https://pure.uvt.nl/ws/portalfiles/portal/102851708/2024-021.pdf"> CentER Discussion Papers </a>
+    <a href="/files/papers/Bouzas, Uras - The Price of Traceability - E-Payments, Tax Compliance, and Policy.pdf">Latest version</a>
 
 {{< /details >}}
 
@@ -30,10 +43,6 @@ draft: false
 ## Work in progress
 
 {{< line >}}
-
-**Tax Evasion and Payment Methods** [with Burak Uras] (2024).
-
-{{< break >}}
 
 **Business Cycles and Informal Hiring with Misallocation of Capital** (2021)
 
