@@ -278,20 +278,25 @@ body::after {
           grid-template-columns: 1fr 370px 1fr; 
         }
 
-        /* footer bar icons */
-        .footer-bar a img { 
+        /* footer bar icons */        
+        .footer-bar a svg { 
           margin: 10px;
           margin-top: -8px; 
           text-align: center;                        
           width: 40px; 
           height: auto; 
           display: inline-block;
+          fill: var(--light-color);
           transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
           will-change: transform; 
+          filter: 
+            brightness(0) saturate(100%) 
+            invert(22%) sepia(97%) saturate(2000%) 
+            hue-rotate(var(--light-color)) brightness(110%) contrast(105%);
         }
 
         /* animation for social network icons */
-        .footer-bar a:hover img {
+        .footer-bar a:hover svg {
           transform: scale(1.4) translateY(-3px);
         }
      
