@@ -13,7 +13,7 @@ draft: false
 
 {{< break >}}
 
-My name is Tulio Bouzas, and I am pursuing my PhD in Economics at Tilburg University. My academic endeavors are broadly focused macro, monetary economics and development. I have a particular interest in exploring the micro-foundations of money within heterogeneous agents models, alongside its relationship with financial development. My supervisors are [Dr. Burak Uras](https://sites.google.com/site/burakruras/home?authuser=0) and
+My name is Tulio Bouzas, and I am pursuing my PhD in Economics at Tilburg University. My academic endeavors are broadly focused on macro, monetary economics and development. I have a particular interest in exploring the micro-foundations of money within heterogeneous agents models, alongside its relationship with financial development. My supervisors are [Dr. Burak Uras](https://sites.google.com/site/burakruras/home?authuser=0) and
 [Dr. Has van Vlokhoven](https://sites.google.com/site/hasvanvlokhoven/).
 
 {{< break >}}{{< break >}}
