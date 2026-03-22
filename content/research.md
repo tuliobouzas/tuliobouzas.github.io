@@ -20,7 +20,7 @@ draft: false
 
     draft= "false" >}}
     
-    <a href="/files/papers/Bouzas, Uras - The Price of Traceability - E-Payments, Tax Compliance, and Policy.pdf">Latest version</a>
+    <a href="/files/papers/Bouzas, Uras - The Price of Traceability - E-Payments, Tax Compliance, and Policy.pdf">Latest version</a> | | <a href="https://librarysearch.williams.edu/discovery/delivery/01WIL_INST:01WIL_SPECIAL/12441242630002786">Williams College Economics Working Papers</a> 
 
 {{< /details >}}
 
