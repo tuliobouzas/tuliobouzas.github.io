@@ -20,7 +20,7 @@ draft: false
 
     draft= "false" >}}
     
-    <a href="/files/papers/Bouzas, Uras - The Price of Traceability - E-Payments, Tax Compliance, and Policy.pdf">Latest version</a> | | <a href="https://librarysearch.williams.edu/discovery/delivery/01WIL_INST:01WIL_SPECIAL/12441242630002786">Williams College Economics Working Papers</a> 
+    <a href="/files/papers/Bouzas, Uras - The Price of Traceability - E-Payments, Tax Compliance, and Policy.pdf">Latest version</a> | <a href="https://librarysearch.williams.edu/discovery/delivery/01WIL_INST:01WIL_SPECIAL/12441242630002786">Williams College Economics Working Papers</a> | <a href="https://research.tilburguniversity.edu/en/publications/the-price-of-traceability-e-payments-tax-compliance-and-policy/"> CentER Discussion Papers </a>
 
 {{< /details >}}
 
@@ -34,7 +34,7 @@ draft: false
 
     draft= "false" >}}
     
-    <a href="/files/papers/Bouzas - On the Distributional Effects of Monetary Shocks.pdf">Latest version</a> | <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5153962">SSRN</a> | <a href="https://pure.uvt.nl/ws/portalfiles/portal/102851708/2024-021.pdf"> CentER Discussion Papers </a>
+    <a href="/files/papers/Bouzas - On the Distributional Effects of Monetary Shocks.pdf">Latest version</a> | <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5153962">SSRN</a> | <a href="https://research.tilburguniversity.edu/en/publications/on-the-distributional-effects-of-monetary-shocks-and-market-incom/"> CentER Discussion Papers </a>
 
 {{< /details >}}
 
