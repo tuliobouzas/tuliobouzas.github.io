@@ -7,7 +7,7 @@
     --title-font: Georgia;
     --body-color: #313131;
     --link-color: rgb(68, 125, 190); 
-    --theme-color: rgb(164, 178, 161); /*rgb(166, 177, 166)*/
+    --theme-color: rgb(140, 156, 131); /* Old default: rgb(164, 178, 161) */ /*rgb(166, 177, 166)*/
     --theme-color-dark: rgb(111, 146, 135);
     --light-color: rgba(239,234,222,1);
     --noscript-color: rgba(228,212,183);
@@ -60,7 +60,9 @@ body::after {
     
     /* cover */
     .header { 
-      background: url('/img/background.avif') no-repeat center center; 
+      background:
+        linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)),  /* 20% lighter */
+        url('/img/background.avif') no-repeat center center;
       background-repeat: repeat-y;
       background-size: 100% auto;
       height: 350px; 
@@ -248,16 +250,30 @@ body::after {
     /* footer */
     .footer { 
       padding-top: 40px; 
-      margin-top:0px;                                      
-      background: var(--theme-color);                                    
+      margin-top:0px;
+      background: var(--theme-color);                                    /* image is in .footer::before */
       position: relative;
+      isolation: isolate;                                                /* keeps ::before behind the content */
       height: 150px ; 
       width: 100%; 
       overflow: hidden;                     
       color: var(--light-color); 
       font-size: var(--body-font-size); 
-    }     
-              
+    }
+
+        /* footer background image, blurred */
+        .footer::before {
+          content: "";
+          position: absolute;
+          inset: -10px;                                       /* overflow so the blur has no soft edges */
+          background:
+            linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)),  /* 20% lighter */
+            url('/img/background.avif') no-repeat center 80% / 100% auto; /* lower part of the image (0% = top, 100% = bottom) */
+          filter: blur(0.5px);
+          z-index: -1;
+          pointer-events: none;
+        }
+
         .footer::after {
           content: "";
           position: absolute;
@@ -547,10 +563,11 @@ iframe {
       flex-direction: row;
     }
     
-    .profile { 
-      flex-basis: 50%; 
-      max-width: 40%;
-      max-height: 50%; 
+    .profile {
+      flex-basis: 50%;
+      max-width: 32%;
+      max-height: 50%;
+      margin-right: 120px;
     }
     
     .info-home {

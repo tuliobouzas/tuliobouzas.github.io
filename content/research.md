@@ -13,6 +13,19 @@ draft: false
 
 {{< line >}}
 
+**New-Keynesian Open-Market Operations: A Reassessment of the Role of Money** [Job market paper] (2026).
+
+{{< details 
+    abstract="Most quantitative New-Keynesian models omit a medium of exchange, on the grounds that money plays no quantitative role in monetary policy transmission or optimal policy. This paper reassesses that view. Empirically, I construct a new series of Federal Reserve permanent open-market operations (OMOs) from weekly reports (1979–2008) and show, in VAR-IV and recursive VARs with high-frequency identified shocks, that OMOs respond significantly to monetary policy shocks within a month and, contrary to existing evidence, more strongly after the Fed began announcing its target rate. I then build a heterogeneous-agent New-Keynesian model with corporate debt and cash-in-advance constraints under which the central bank must conduct OMOs to enforce its interest-rate target. Calibrated to business-cycle moments, the model reproduces the impact and persistence of the estimated OMO response. Relative to a cashless benchmark, investment responds up to 30\% more, and savings twice as much to a monetary shock, because the central bank accommodates liquidity needs via OMOs. Though the optimal Taylor rule is similar in both economies, welfare costs of deviating from it are up to ten times larger with money, where consumption volatility responds strongly to inflation and OMO volume. Extensions show that information frictions explain the weaker pre-announcement response, and that the cashless benchmark amplifies shocks through a within-period income–spending feedback loop that a cash-in-advance constraint breaks."
+
+    draft= "false" >}}
+    
+    <a href="/files/papers/jmp.pdf">Latest version</a>
+
+{{< /details >}}
+
+{{< bigbreak >}}
+
 **The Price of Traceability: E-Payments, Tax Compliance, and Policy** [with Burak Uras] (2026).
 
 {{< details 
@@ -24,7 +37,7 @@ draft: false
 
 {{< /details >}}
 
-{{< break >}}
+{{< bigbreak >}}
 
 **On the Distributional Effects of Monetary Shocks and Market Incompleteness** (2025).
 
