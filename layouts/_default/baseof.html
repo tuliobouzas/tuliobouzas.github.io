@@ -79,9 +79,12 @@
                 </div>
             </div>
         </nav>
-        <div class="title">{{ .Params.page_title }}</div>
-        <hr class="title-line" style="width:calc(var(--line-factor)*var(--title-bar))">
-        <div class="subtitle">{{ .Params.page_subtitle }}</div>
+        <!-- Title block (centered as a unit) -->
+        <div class="title-block">
+            <div class="title">{{ .Params.page_title }}</div>
+            <hr class="title-line" style="width:calc(var(--line-factor)*var(--title-bar))">
+            {{ with .Params.page_subtitle }}<div class="subtitle">{{ . }}</div>{{ end }}
+        </div>
     </div>
 
     <div class="line"></div>
