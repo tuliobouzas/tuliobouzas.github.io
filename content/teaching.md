@@ -42,4 +42,4 @@ draft: false
 
 {{< shortbreak >}}
 
-**Macroeconomics 2** [with Marina Delmondes de Carvalho Rossi and Sebastião Oliveira] (2021), Teaching assisntant, BSc. in Economics
+**Macroeconomics 2** [with Marina Delmondes de Carvalho Rossi and Sebastião Oliveira] (2021), Teaching assistant, BSc. in Economics

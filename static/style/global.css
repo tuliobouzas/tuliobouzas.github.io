@@ -64,8 +64,7 @@ body::after {
       background:
         linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)),  /* 20% lighter */
         url('/img/background.avif') no-repeat center center;
-      background-repeat: repeat-y;
-      background-size: 100% auto;
+      background-size: cover;                                            /* always fills the bar; Previous: 100% auto + repeat-y */
       height: 315px;
       width: 100%;
       position: relative;                                                /* anchor for .title-block */
