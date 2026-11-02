@@ -57,13 +57,12 @@ draft: false
 
 {{< line >}}
 
-<!-- 
 **Business Cycles and Informal Hiring with Misallocation of Capital**
 
 {{< details 
-    abstract="The present work presents a model that explores the effects and behavior of informality along the business cycle in an economy characterized by capital misallocation. The intensive margin of informality is modelled through a size-dependent cost function and the extensive margin is modelled by following a dualistic approach to informality. The main results indicate that the intensive margin of informality gives less productive firms a competitive advantage during recessions; the elimination of informality decreases output and, overall, leads to more volatility; and both VAT and payroll taxes lead to intersectorial misallocation, but only the payroll tax leads to misallocation within the formal sector."
+    abstract="This paper builds a model of the role of informality along the business cycle in an economy with capital misallocation. The intensive margin is modelled through a size-dependent cost function; the extensive margin, as a separate, low-productivity informal sector whose firms cannot formalize. I find that the intensive margin gives less productive firms a competitive advantage during recessions: informal hiring becomes cheaper as firms shrink, and smaller firms are the most intensive in informal labor. As in prior literature, the intensive margin also absorbs shocks by lowering labor costs, though the effect is quantitatively small. In the calibrated model, eliminating either margin reduces total output. Both VAT and payroll taxes cause intersectorial misallocation, and the latter also favors small, informal-intensive formal firms over large ones.
+"
 
     draft= "true" >}}
 
 {{< /details >}}
--->
