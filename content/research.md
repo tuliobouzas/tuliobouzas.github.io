@@ -26,7 +26,7 @@ draft: false
 
 {{< bigbreak >}}
 
-**The Price of Traceability: E-Payments, Tax Compliance, and Policy** [with Burak Uras] (2026).
+**The Price of Traceability: Tax Compliance, Currency Ratio, and Policy** [with Burak Uras] (2026).
 
 {{< details 
     abstract="Why does cash remain prevalent despite the expansion of traceable electronic payments, and what are the implications for tax compliance and policy? Using randomized experimental evidence from Kenyan SMEs, we show that electronic-payment adoption increases tax compliance by improving transaction traceability. Motivated by this evidence, we develop and calibrate a general equilibrium model in which firms jointly choose method of payment acceptance, prices, and tax evasion. The model generates endogenous coexistence of cash and electronic payments and links tax compliance to the currency ratio, which is the use of cash at economic transactions relative to traceable payment instruments. A key result is that higher inflation raises the currency ratio and, when cash constrains firms’ ability to evade, it could increase tax evasion. We support this theoretical property with macroeconomic evidence on inflation, currency ratio, and tax compliance. The novel interactions we identify imply that monetary policy, tax policy, enforcement, and financial development jointly determine payment choices, tax compliance, and government revenues."
