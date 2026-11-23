@@ -16,7 +16,7 @@ draft: false
 
 {{< break >}}
 
-I am Tulio Bouzas, a PhD candidate in Economics at Tilburg University. ***I am on the 2026–2027 academic job market.***
+I am Túlio Bouzas, a PhD candidate in Economics at Tilburg University. ***I am on the 2026–2027 academic job market.***
 
 My research is broadly focused on ***monetary economics***. I have a particular interest in exploring the micro-foundations of money within heterogeneous agents models. I am also interested in ***macro development*** and, in particular, the role of payment method choice for tax evasion and informality.
 
