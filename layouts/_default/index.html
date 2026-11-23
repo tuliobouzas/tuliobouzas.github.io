@@ -11,4 +11,20 @@
     <div class="info-home">
         {{ .Content }}
     </div>
+
+    <!-- Contact row -->
+    <div class="contact-row">
+        <div>
+            <em>Contact info:</em><br>
+            <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
+        </div>
+        <div>
+            <em>Curriculum Vitae:</em><br>
+            <a href="{{ .Params.cv }}">Download</a>
+        </div>
+        <div>
+            <em>Office</em><br>
+            {{ .Params.office }}
+        </div>
+    </div>
 {{ end }}

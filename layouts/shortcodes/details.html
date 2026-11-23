@@ -11,8 +11,8 @@
     {{ .Get "supplement" | markdownify }} 
     </details>| {{end}}
 
-    <!-- Links -->
-    {{ if not (eq (.Get "draft") "true") }}
+    <!-- Links (the | only appears when there are links to separate) -->
+    {{ if and (not (eq (.Get "draft") "true")) (strings.TrimSpace .Inner) }}
         | {{ .Inner}}
     {{end}}
 

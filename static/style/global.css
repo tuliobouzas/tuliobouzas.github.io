@@ -7,8 +7,8 @@
     --title-font: Georgia;
     --body-color: #313131;
     --link-color: rgb(68, 125, 190); 
-    --theme-color: rgb(150, 164, 141); /* Old default: rgb(164, 178, 161) */ /*rgb(166, 177, 166)*/
-    --theme-color-dark: var(--theme-color); /* Previous: rgb(109, 125, 100) */ /* Old default: rgb(111, 146, 135) */
+    --theme-color: #839a88; /* Tried: #7e9e7f, #6e8e79 */ /* Previous: rgb(150, 164, 141) */ /* Old default: rgb(164, 178, 161) */ /*rgb(166, 177, 166)*/
+    --theme-color-dark: rgb(109, 125, 100); /* Previous: var(--theme-color) */ /* Old default: rgb(111, 146, 135) */
     --light-color: rgba(239,234,222,1);
     --noscript-color: rgba(228,212,183);
     --money-color-light: rgba(147,152,118);
@@ -62,7 +62,7 @@ body::after {
     /* cover */
     .header { 
       background:
-        linear-gradient(rgba(150,164,141,0.55), rgba(150,164,141,0.55)),  /* sage overlay mutes the photo under the titles; raise alpha to fade it further */
+        linear-gradient(rgba(131,154,136,0.55), rgba(131,154,136,0.55)),  /* theme-color overlay (#839a88) mutes the photo under the titles; raise alpha to fade it further. Previous: rgba(150,164,141,0.55) */
         url('/img/background.avif') no-repeat center center;
       background-size: cover;                                            /* always fills the bar; Previous: 100% auto + repeat-y */
       height: 315px;
@@ -211,11 +211,14 @@ body::after {
     }                                 
 
         /* textual block */
-        .info { 
-          margin-top: 10px; 
-          text-align: justify; 
-          width: 100%; 
-        }               
+        .info {
+          margin-top: 10px;
+          text-align: justify;
+          width: 100%;
+          max-width: 900px;                                 /* keeps lines at a readable length on wide screens */
+          margin-left: auto;
+          margin-right: auto;
+        }
           
 
         /* home - picture */
@@ -241,6 +244,16 @@ body::after {
           min-width: 30%; 
           max-width: 500px; 
         }                             
+
+        /* home - contact row (full width, below picture and intro) */
+        .contact-row {
+          clear: both;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          gap: 40px;
+          text-align: center;
+          padding-top: 30px;
+        }
 
         /* in-page documents */
         .doc { 
@@ -496,9 +509,14 @@ iframe {
     }  
     
     .profile,
-    .info-home { 
-      flex-basis: 100%; 
+    .info-home {
+      flex-basis: 100%;
       max-width: 100%;
+    }
+
+    .contact-row {
+      grid-template-columns: 1fr;
+      gap: 20px;
     }
 
     .footer-bar { 

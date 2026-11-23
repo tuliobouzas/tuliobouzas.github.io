@@ -1,4 +1,4 @@
-.info, .info-home {
+.info, .info-home, .contact-row {
 
     a {
         color: var(--link-color);
@@ -31,11 +31,45 @@
     } 
     
     /* research links behavior */
-    .research-links { 
-        display: inline-block; 
+    .research-links {
+        display: inline-block;
         vertical-align: middle;            /* in-line      */
-        margin-right: 10px; 
+        margin-right: 10px;
     }
+
+    /* paper title directly above an Abstract/links row: 75% of the default gap */
+    p:has(+ div.research-links) {
+        margin-bottom: 0.75em;
+    }
+
+    /* flex keeps the Abstract button anchored in place when the details expand */
+    div.research-links {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        column-gap: 8px;
+        row-gap: 12px;                     /* space between the open abstract and the links row below it */
+        margin-right: 0;                   /* row spans the full text width, like the title above it */
+    }
+
+    div.research-links > .research-links {
+        margin-right: 0;                   /* column-gap already spaces the items */
+    }
+
+    /* space between the Abstract button and the abstract text it opens */
+    details.research-links[open] > summary {
+        margin-bottom: 12px;
+    }
+
+    /* abstract text at 85% of body text; the button keeps full size */
+    details.research-links {
+        font-size: 85%;
+    }
+
+    details.research-links > summary {
+        font-size: var(--body-font-size);
+    }
+
     
     /* style lines */
     .solid {
@@ -43,6 +77,8 @@
         background: var(--theme-color-dark);
         border: var(--theme-color-dark);
         height: 2px;
+        margin-top: 8px;                      /* stays snug under its section heading */
+        margin-bottom: 38px;                  /* air between the line and the first item */
     }
 }
 
