@@ -12,7 +12,7 @@
     </details>| {{end}}
 
     <!-- Links (the | only appears when there are links to separate) -->
-    {{ if and (not (eq (.Get "draft") "true")) (strings.TrimSpace .Inner) }}
+    {{ if and (not (eq (.Get "draft") "true")) (ne (trim .Inner " \n\r\t") "") }}
         | {{ .Inner}}
     {{end}}
 
