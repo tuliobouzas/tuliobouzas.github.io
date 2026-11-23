@@ -509,11 +509,14 @@ iframe {
     
     .profile,
     .info-home {
-      flex-basis: 100%;
+      flex: 0 0 auto;                  /* in the column layout a % flex-basis sets HEIGHT and distorts the photo */
+      width: 100%;
       max-width: 100%;
     }
 
     .contact-row {
+      flex-basis: auto;                /* same reason as above */
+      width: 100%;
       grid-template-columns: 1fr;
       gap: 20px;
     }
@@ -567,3 +570,12 @@ iframe {
       flex-direction: row;
     }
 }
+
+  /* Phones only: touch device with a phone-sized short side (tablets and resized desktop windows are excluded) */
+  @media (hover: none) and (pointer: coarse) and (max-width: 600px),
+         (hover: none) and (pointer: coarse) and (max-height: 600px) {
+
+    .header {
+      height: calc(315px * 0.9);                /* 90% of the regular banner height */
+    }
+  }
