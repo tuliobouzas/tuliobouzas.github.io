@@ -62,7 +62,7 @@ body::after {
     /* cover */
     .header { 
       background:
-        linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)),  /* 20% lighter */
+        linear-gradient(rgba(150,164,141,0.55), rgba(150,164,141,0.55)),  /* sage overlay mutes the photo under the titles; raise alpha to fade it further */
         url('/img/background.avif') no-repeat center center;
       background-size: cover;                                            /* always fills the bar; Previous: 100% auto + repeat-y */
       height: 315px;
@@ -264,10 +264,7 @@ body::after {
     .footer { 
       padding-top: 40px; 
       margin-top:0px;
-      background:
-        linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)),  /* 20% lighter */
-        url('/img/background.avif') no-repeat center center / 100% auto, /* Previous position: center 80% */
-        var(--theme-color);
+      background: var(--theme-color);
       position: relative;
       height: 150px ;
       width: 100%;
