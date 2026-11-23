@@ -25,4 +25,4 @@ My supervisors are [Dr. Burak Uras](https://sites.google.com/site/burakruras/hom
 
 In Fall 2025, I visited the Department of Economics at the University of Pennsylvania.
 
-Updated statements: [Research Statement](/files/research_statement.pdf) ([Expanded macro development agenda](/files/expanded_research_statement.pdf)) and [Teaching Statement](/files/teaching_statement.pdf)
+Updated statements: [Research Statement](/files/research_statement.pdf) ([Expanded macro development agenda](/files/expanded_research_statement.pdf)) and [Teaching Statement](/files/teaching_statement.pdf).
