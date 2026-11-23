@@ -200,15 +200,18 @@ body::after {
     }                           
 
     /* main block */
-    .main { 
-      padding-top: 40px;                                                    
+    .main {
+      padding-top: 40px;
       min-height: 52vh;
-      box-sizing: border-box; 
-      flex-wrap: wrap; 
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;                /* leftover space splits evenly left of the photo and right of the text */
+      column-gap: 60px;
       flex-grow: 1;
-      margin: auto; 
-      margin-right: auto; 
-    }                                 
+      margin: auto;
+      margin-right: auto;
+    }
 
         /* textual block */
         .info {
@@ -221,33 +224,29 @@ body::after {
         }
           
 
-        /* home - picture */
-        .profile { 
-          float: left; 
-          margin-right: 100px; 
-          margin-top: 10px;               
-          margin-bottom: 40px; 
-          margin-right: 60px; 
-          flex: 0 0 auto;  
-          max-width: 500px; 
-          height: auto; 
+        /* home - picture: absorbs the width the text block doesn't use */
+        .profile {
+          margin-top: 10px;
+          margin-bottom: 40px;
+          flex: 1 1 200px;                /* small basis so it never wraps; grows into the width the text leaves */
+          min-width: 0;
+          max-width: 500px;
+          height: auto;
+          align-self: flex-start;
           border-radius: 5%;
-        }                                       
+        }
 
-        /* home - textual block */
-        .info-home { 
-          margin-top: 10px; 
-          margin-left: auto; 
-          float: left;               
-          text-align: justify; 
-          flex: 1;                     
-          min-width: 30%; 
-          max-width: 500px; 
-        }                             
+        /* home - textual block: keeps its 40% share, capped at 500px */
+        .info-home {
+          margin-top: 10px;
+          text-align: justify;
+          flex: 0 0 40%;
+          max-width: 500px;
+        }
 
         /* home - contact row (full width, below picture and intro) */
         .contact-row {
-          clear: both;
+          flex-basis: 100%;
           display: grid;
           grid-template-columns: 1fr 1fr 1fr;
           gap: 40px;
@@ -540,25 +539,14 @@ iframe {
   /* Tablet screens */
   @media (min-width: 801px) and (max-width: 1600px) {
     
-    .main { 
-      max-width: 80%; 
-    } 
+    .main {
+      max-width: 80%;
+    }
 
-    /* link bar */  
+    /* link bar */
     .navbar-link #my-links {
       display: flex;
       flex-direction: row;
-    }
-
-    .profile { 
-      flex-basis: 50%; 
-      max-width: 40%; 
-      max-height: 40%; 
-    }
-    
-    .info-home { 
-      flex-basis: 50%; 
-      max-width: 40%; 
     }
 
     :root {
@@ -569,24 +557,13 @@ iframe {
 /* Bigger screens */
 @media (min-width: 1601px) {
     
-    .main{ 
-      max-width: 70%; 
-    } 
+    .main{
+      max-width: 70%;
+      column-gap: 120px;
+    }
 
     .navbar-link #my-links {
       display: flex;
       flex-direction: row;
-    }
-    
-    .profile {
-      flex-basis: 50%;
-      max-width: 32%;
-      max-height: 50%;
-      margin-right: 120px;
-    }
-    
-    .info-home {
-      flex-basis: 50%; 
-      max-width: 50%; 
     }
 }

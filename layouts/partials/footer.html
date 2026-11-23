@@ -13,6 +13,21 @@
         margin-top: 9px;
     }
 
+    /* discreet banner photo credit */
+    .photo-credit {
+        font-size: 12px;
+        opacity: 0.6;
+        margin-top: -12px;
+    }
+
+    .photo-credit a {
+        color: var(--light-color);
+    }
+
+    .photo-credit a:hover {
+        text-decoration: underline;
+    }
+
 </style>
  
  <footer class="footer">
@@ -58,5 +73,6 @@
     <!-- Copyright -->
     <div style="text-align: center;">
         <p>© {{ now.Format "2006" }} Túlio Bouzas</p>
+        <p class="photo-credit">Banner photo by <a href="https://unsplash.com/photos/grey-concrete-building-2_K82gx9Uk8">Etienne Martin</a></p>
     </div>
 </footer>   

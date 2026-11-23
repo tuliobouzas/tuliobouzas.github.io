@@ -4,12 +4,26 @@
         color: var(--link-color);
     }
     
-    em { 
-        font-size: 28px; 
-        font-style: normal; 
+    em {
+        font-size: 28px;
+        font-style: normal;
         font-family: var(--title-font) ;
-        color: black; 
-    } 
+        color: black;
+    }
+
+    /* ***text*** in markdown: bold green (like \emph), halfway between the theme color and the heading green */
+    em strong, strong em {
+        font-size: inherit;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: bold;
+        color: rgb(112, 150, 110);         /* the midpoint of #839a88 and rgb(109,125,100), with saturation roughly doubled */
+    }
+
+    em:has(> strong) {
+        font-size: inherit;
+        font-family: inherit;
+    }
     
     h2,h3,h4,h5,h6 {
         font-style: normal; 
